@@ -2,8 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-
-
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
+@import "bootstrap";
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -28,7 +28,12 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+//innku colors
+$light-grey: #c6c5c3;
+$almost-white: #fdfdfd;
+$dark-grey: #4d4d4d;
+$red: #ea6570;
+$grey: #797874;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -52,4 +57,97 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
-@import "bootstrap";
+body {
+  font-family: 'Lato', sans-serif;
+}
+.logo {
+  width: 125px;
+}
+
+.footer-icon {
+  img {
+    width: 32px;
+    margin-right: 5px;
+  }
+
+  span {
+    margin-top: 4px;
+    position: absolute;
+  }
+}
+
+.footer-icon-extra {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  padding-bottom: 70px;
+  width: 32px;
+
+  img {
+    width: 32px;
+    margin-right: 5px;
+  }
+}
+
+.innku-title {
+  margin: 20rem;
+  text-align: center;
+}
+
+.innku-project {
+  margin: 10rem 0;
+  position: relative;
+
+  .innku-project-frame {
+    border: 5px solid $light-grey;
+    height: 37rem;
+    margin-top: 10rem;
+    position: absolute;
+  }
+
+  .innku-project-title {
+    background: $almost-white;
+    margin-top: 3.6rem;
+  }
+
+  h2 {
+    color: $dark-grey;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    span {
+      color: $red;
+    }
+  }
+
+  .innku-project-divisor {
+    border-top: 5px solid $dark-grey;
+    margin: 2rem 0 2rem 15px;
+  }
+
+  p {
+    color: $grey;
+  }
+}
+
+.right-project {
+
+}
+
+.left-project {
+
+}
+
+footer {
+  margin: 10rem 0;
+
+  h3 {
+    color: $dark-grey;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  p {
+    color: $dark-grey;
+  }
+}

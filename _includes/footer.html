@@ -1,38 +1,32 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+<footer>
+  <div class="row">
+    <div class="col-lg-offset-1 col-lg-10">
+      <h3>Contáctanos</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-offset-1 col-lg-10">
+      <div class="row">
+        <div class="col-lg-4">
+          <p class="footer-icon"><img src="img/mail.png"><span>info@innku.com</span></p>
+          <p class="footer-icon"><img src="img/phone.png"><span>+52 (81) 2092 0548</span></p>
+        </div>
+        <div class="col-lg-4">
+          <p class="footer-icon-extra"><img src="img/map.png"></p>
+          <p class="footer-icon"><span><strong>Monterrey, Nuevo León</strong><br />
+            Juan Ignacio Ramón 801.<br />
+            Edificio Santa Lucía. Piso 2.<br />
+            Departamento 210<br />
+            Col. Centro Monterrey, CP 64000.</span>
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <p><strong>México, D.F.</strong><br />
+            Insurgentes Sur 318<br />
+            Col. Roma Norte, CP 06700.
+          </p>
+        </div>
       </div>
     </div>
-
   </div>
-
 </footer>
