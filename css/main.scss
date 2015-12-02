@@ -42,13 +42,12 @@ $grey: #797874;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -64,34 +63,14 @@ body {
   width: 125px;
 }
 
-.footer-icon {
-  img {
-    width: 32px;
-    margin-right: 5px;
-  }
-
-  span {
-    margin-top: 4px;
-    position: absolute;
-  }
-}
-
-.footer-icon-extra {
-  display: block;
-  float: left;
-  margin-right: 5px;
-  padding-bottom: 70px;
-  width: 32px;
-
-  img {
-    width: 32px;
-    margin-right: 5px;
-  }
-}
-
 .innku-title {
-  margin: 20rem;
+  margin: 20rem 0;
   text-align: center;
+}
+
+.innku-title-divisor {
+  border-top: 5px solid $red;
+  margin-top: 14rem;
 }
 
 .innku-project {
@@ -103,6 +82,22 @@ body {
     height: 37rem;
     margin-top: 10rem;
     position: absolute;
+
+    @media screen and (max-width: 1200px) {
+      height: 29.4rem;
+    }
+
+    @media screen and (max-width: 992px) {
+      height: 21rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      height: 21rem;
+    }
+
+    @media screen and (max-width: 750px) {
+      border: none;
+    }
   }
 
   .innku-project-title {
@@ -135,10 +130,6 @@ body {
 
 }
 
-.left-project {
-
-}
-
 footer {
   margin: 10rem 0;
 
@@ -149,5 +140,42 @@ footer {
   }
   p {
     color: $dark-grey;
+  }
+
+  .footer-icon {
+    img {
+      width: 32px;
+      margin-right: 5px;
+    }
+
+    span {
+      margin-top: 4px;
+      position: absolute;
+    }
+  }
+
+  .footer-icon-extra {
+    display: block;
+    float: left;
+    margin-right: 5px;
+    padding-bottom: 70px;
+    width: 32px;
+
+    img {
+      width: 32px;
+      margin-right: 5px;
+    }
+  }
+
+  .footer-sm {
+    @media screen and (max-width: 750px) {
+      height: 24vh;
+    }
+  }
+
+  .footer-sm-extra-margin {
+    @media screen and (max-width: 750px) {
+      margin-left: 37px;
+    }
   }
 }

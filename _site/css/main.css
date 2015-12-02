@@ -6260,26 +6260,13 @@ body {
 .logo {
   width: 125px; }
 
-.footer-icon img {
-  width: 32px;
-  margin-right: 5px; }
-.footer-icon span {
-  margin-top: 4px;
-  position: absolute; }
-
-.footer-icon-extra {
-  display: block;
-  float: left;
-  margin-right: 5px;
-  padding-bottom: 70px;
-  width: 32px; }
-  .footer-icon-extra img {
-    width: 32px;
-    margin-right: 5px; }
-
 .innku-title {
-  margin: 20rem;
+  margin: 20rem 0;
   text-align: center; }
+
+.innku-title-divisor {
+  border-top: 5px solid #ea6570;
+  margin-top: 14rem; }
 
 .innku-project {
   margin: 10rem 0;
@@ -6289,6 +6276,18 @@ body {
     height: 37rem;
     margin-top: 10rem;
     position: absolute; }
+    @media screen and (max-width: 1200px) {
+      .innku-project .innku-project-frame {
+        height: 29.4rem; } }
+    @media screen and (max-width: 992px) {
+      .innku-project .innku-project-frame {
+        height: 21rem; } }
+    @media screen and (max-width: 768px) {
+      .innku-project .innku-project-frame {
+        height: 21rem; } }
+    @media screen and (max-width: 750px) {
+      .innku-project .innku-project-frame {
+        border: none; } }
   .innku-project .innku-project-title {
     background: #fdfdfd;
     margin-top: 3.6rem; }
@@ -6313,3 +6312,24 @@ footer {
     font-weight: 700; }
   footer p {
     color: #4d4d4d; }
+  footer .footer-icon img {
+    width: 32px;
+    margin-right: 5px; }
+  footer .footer-icon span {
+    margin-top: 4px;
+    position: absolute; }
+  footer .footer-icon-extra {
+    display: block;
+    float: left;
+    margin-right: 5px;
+    padding-bottom: 70px;
+    width: 32px; }
+    footer .footer-icon-extra img {
+      width: 32px;
+      margin-right: 5px; }
+  @media screen and (max-width: 750px) {
+    footer .footer-sm {
+      height: 24vh; } }
+  @media screen and (max-width: 750px) {
+    footer .footer-sm-extra-margin {
+      margin-left: 37px; } }
