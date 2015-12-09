@@ -6254,8 +6254,19 @@ pre {
   .highlight .il {
     color: #099; }
 
+.btn-innku {
+  color: #fdfdfd;
+  background-color: #ea6570;
+  border-color: #e43846; }
+
+.btn-innku:hover, .btn-innku:active {
+  color: #fdfdfd;
+  background-color: #e43846;
+  border-color: #e43846; }
+
 body {
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  position: relative; }
 
 .logo {
   width: 125px; }
@@ -6269,7 +6280,7 @@ body {
   margin-top: 14rem; }
 
 .innku-project {
-  margin: 10rem 0;
+  padding-top: 10rem;
   position: relative; }
   .innku-project .innku-project-frame {
     border: 5px solid #c6c5c3;
@@ -6288,21 +6299,35 @@ body {
     @media screen and (max-width: 750px) {
       .innku-project .innku-project-frame {
         border: none; } }
-  .innku-project .innku-project-title {
+  .innku-project .innku-project-logo {
     background: #fdfdfd;
-    margin-top: 3.6rem; }
+    margin-top: 3.2rem; }
   .innku-project h2 {
     color: #4d4d4d;
     font-size: 3rem;
     font-weight: 700;
+    margin-top: 2rem;
     text-transform: uppercase; }
     .innku-project h2 span {
       color: #ea6570; }
   .innku-project .innku-project-divisor {
     border-top: 5px solid #4d4d4d;
-    margin: 2rem 0 2rem 15px; }
+    margin: 2rem 0 3rem 15px; }
   .innku-project p {
     color: #797874; }
+  .innku-project .innku-project-button-group {
+    margin-top: 3rem;
+    text-align: center; }
+    .innku-project .innku-project-button-group a {
+      color: #fdfdfd; }
+    .innku-project .innku-project-button-group a:nth-child(2) {
+      margin-left: 1rem; }
+
+.innku-project-nav {
+  bottom: 0;
+  margin-left: 20vw;
+  position: fixed;
+  width: 60vw; }
 
 footer {
   margin: 10rem 0; }
@@ -6327,9 +6352,21 @@ footer {
     footer .footer-icon-extra img {
       width: 32px;
       margin-right: 5px; }
+  @media screen and (max-width: 992px) {
+    footer .footer-sm {
+      height: 32vh; } }
+  @media screen and (max-width: 768px) {
+    footer .footer-sm {
+      height: 14vh; } }
   @media screen and (max-width: 750px) {
     footer .footer-sm {
       height: 24vh; } }
+  @media screen and (max-width: 992px) {
+    footer .footer-sm-extra-margin {
+      margin-left: 37px; } }
+  @media screen and (max-width: 768px) {
+    footer .footer-sm-extra-margin {
+      margin-left: 37px; } }
   @media screen and (max-width: 750px) {
     footer .footer-sm-extra-margin {
       margin-left: 37px; } }

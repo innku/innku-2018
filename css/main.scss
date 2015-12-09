@@ -56,9 +56,24 @@ $grey: #797874;
         "syntax-highlighting"
 ;
 
+.btn-innku {
+  color: $almost-white;
+  background-color: $red;
+  border-color: darken( $red, 10% );
+}
+
+.btn-innku:hover, .btn-innku:active {
+  color: $almost-white;
+  background-color: darken( $red, 10% );
+  border-color: darken( $red, 10% );
+}
+
 body {
   font-family: 'Lato', sans-serif;
+  position: relative;
 }
+
+
 .logo {
   width: 125px;
 }
@@ -74,7 +89,7 @@ body {
 }
 
 .innku-project {
-  margin: 10rem 0;
+  padding-top: 10rem;
   position: relative;
 
   .innku-project-frame {
@@ -100,15 +115,16 @@ body {
     }
   }
 
-  .innku-project-title {
+  .innku-project-logo {
     background: $almost-white;
-    margin-top: 3.6rem;
+    margin-top: 3.2rem;
   }
 
   h2 {
     color: $dark-grey;
     font-size: 3rem;
     font-weight: 700;
+    margin-top: 2rem;
     text-transform: uppercase;
 
     span {
@@ -118,16 +134,36 @@ body {
 
   .innku-project-divisor {
     border-top: 5px solid $dark-grey;
-    margin: 2rem 0 2rem 15px;
+    margin: 2rem 0 3rem 15px;
   }
 
   p {
     color: $grey;
   }
+
+  .innku-project-button-group {
+    margin-top: 3rem;
+    text-align: center;
+
+    a {
+      color: $almost-white;
+    }
+
+    a:nth-child(2) {
+      margin-left: 1rem;
+    }
+  }
 }
 
 .right-project {
 
+}
+
+.innku-project-nav {
+  bottom: 0;
+  margin-left: 20vw;
+  position: fixed;
+  width: 60vw;
 }
 
 footer {
@@ -168,14 +204,31 @@ footer {
   }
 
   .footer-sm {
+    @media screen and (max-width: 992px) {
+      height: 32vh;
+    }
+
+    @media screen and (max-width: 768px) {
+      height: 14vh;
+    }
+
     @media screen and (max-width: 750px) {
       height: 24vh;
     }
   }
 
   .footer-sm-extra-margin {
+    @media screen and (max-width: 992px) {
+      margin-left: 37px;
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-left: 37px;
+    }
+
     @media screen and (max-width: 750px) {
       margin-left: 37px;
     }
+
   }
 }

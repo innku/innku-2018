@@ -10,15 +10,17 @@
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
-  <link rel="shortcut icon" href="/imgs/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://yourdomain.com/about/">
   <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 
 
-  <body>
+  <body data-spy="scroll" data-target="#innku-projects" data-offset="50">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
@@ -106,6 +108,34 @@
 
 
     </div>
+
+    <script type="text/javascript">
+  jQuery(document).ready(function($){
+    // Add scrollspy to <body>
+    $('body').scrollspy({ target: '#innku-projects', offset: 50 });
+
+    // Add smooth scrolling to all links inside a navbar
+    $("#innku-projects a").on('click', function(event){
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash (#)
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area (the speed of the animation)
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    });
+
+  });
+</script>
+
 
   </body>
 
