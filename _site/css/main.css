@@ -6330,25 +6330,7 @@ body {
   text-align: center;
   width: 100%; }
   .innku-projects-nav .innku-inside-projects-nav {
-    display: inline-block;
-    /*
-        .nav-colors {
-          background-color: lighten($red, 10%);
-          border-color: darken($red, 10%);
-    
-          .active {
-            background: darken($red, 10%);
-          }
-    
-          ul > li > a {
-            color: $almost-white;
-          }
-    
-          ul > li > a:hover {
-            color: darken($red, 10%);
-          }
-        }
-    */ }
+    display: inline-block; }
     .innku-projects-nav .innku-inside-projects-nav .navbar-collapse {
       padding-left: 0px;
       padding-right: 0px; }
