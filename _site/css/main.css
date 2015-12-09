@@ -6323,11 +6323,35 @@ body {
     .innku-project .innku-project-button-group a:nth-child(2) {
       margin-left: 1rem; }
 
-.innku-project-nav {
+.innku-projects-nav {
   bottom: 0;
-  margin-left: 20vw;
+  margin: 0 auto;
   position: fixed;
-  width: 60vw; }
+  text-align: center;
+  width: 100%; }
+  .innku-projects-nav .innku-inside-projects-nav {
+    display: inline-block;
+    /*
+        .nav-colors {
+          background-color: lighten($red, 10%);
+          border-color: darken($red, 10%);
+    
+          .active {
+            background: darken($red, 10%);
+          }
+    
+          ul > li > a {
+            color: $almost-white;
+          }
+    
+          ul > li > a:hover {
+            color: darken($red, 10%);
+          }
+        }
+    */ }
+    .innku-projects-nav .innku-inside-projects-nav .navbar-collapse {
+      padding-left: 0px;
+      padding-right: 0px; }
 
 footer {
   margin: 10rem 0; }

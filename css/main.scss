@@ -159,11 +159,40 @@ body {
 
 }
 
-.innku-project-nav {
+.innku-projects-nav {
   bottom: 0;
-  margin-left: 20vw;
+  margin: 0 auto;
   position: fixed;
-  width: 60vw;
+  text-align: center;
+  width: 100%;
+
+  .innku-inside-projects-nav {
+    display: inline-block;
+
+    .navbar-collapse {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+/*
+    .nav-colors {
+      background-color: lighten($red, 10%);
+      border-color: darken($red, 10%);
+
+      .active {
+        background: darken($red, 10%);
+      }
+
+      ul > li > a {
+        color: $almost-white;
+      }
+
+      ul > li > a:hover {
+        color: darken($red, 10%);
+      }
+    }
+*/
+  }
+
 }
 
 footer {

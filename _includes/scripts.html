@@ -22,5 +22,24 @@
       });
     });
 
+    var checkScroll = function() {
+      if ($('.innku-footer')[0]) {
+        var el = $('.innku-footer');
+        var top_of_object = el.offset().top;
+        var bottom_of_object = el.offset().top + el.outerHeight();
+        var top_of_window = $(window).scrollTop();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        if (top_of_window <= bottom_of_object && bottom_of_window >= top_of_object) {
+          $('.innku-projects-nav').fadeOut();
+        } else {
+          $('.innku-projects-nav').fadeIn();
+        }
+      }
+    }
+    $(window).on('scroll', function() {checkScroll()});
+
   });
+
+
 </script>
