@@ -6268,16 +6268,29 @@ body {
   font-family: 'Lato', sans-serif;
   position: relative; }
 
+.navbar-aling {
+  float: right; }
+  @media screen and (max-width: 750px) {
+    .navbar-aling {
+      float: left;
+      width: 100%; } }
+
 .logo {
   width: 125px; }
 
 .innku-title {
   margin: 20rem 0;
   text-align: center; }
+  @media screen and (max-width: 750px) {
+    .innku-title {
+      margin: 15rem 0 2rem 0; } }
 
 .innku-title-divisor {
   border-top: 5px solid #ea6570;
   margin-top: 14rem; }
+  @media screen and (max-width: 750px) {
+    .innku-title-divisor {
+      margin-top: 10rem; } }
 
 .innku-project {
   padding-top: 10rem;
@@ -6310,6 +6323,9 @@ body {
     text-transform: uppercase; }
     .innku-project h2 span {
       color: #ea6570; }
+    @media screen and (max-width: 750px) {
+      .innku-project h2 {
+        font-size: 2rem; } }
   .innku-project .innku-project-divisor {
     border-top: 5px solid #4d4d4d;
     margin: 2rem 0 3rem 15px; }
