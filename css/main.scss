@@ -73,6 +73,14 @@ body {
   position: relative;
 }
 
+.navbar-aling{
+  float: right;
+
+  @media screen and (max-width: 750px) {
+    float: left;
+    width: 100%;
+  }
+}
 
 .logo {
   width: 125px;
@@ -81,11 +89,19 @@ body {
 .innku-title {
   margin: 20rem 0;
   text-align: center;
+
+  @media screen and (max-width: 750px) {
+    margin: 15rem 0 2rem 0;
+  }
 }
 
 .innku-title-divisor {
   border-top: 5px solid $red;
   margin-top: 14rem;
+
+  @media screen and (max-width: 750px) {
+    margin-top: 10rem;
+  }
 }
 
 .innku-project {
@@ -129,6 +145,10 @@ body {
 
     span {
       color: $red;
+    }
+
+    @media screen and (max-width: 750px) {
+      font-size: 2rem;
     }
   }
 
