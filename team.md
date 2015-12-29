@@ -1,12 +1,12 @@
 ---
-layout: default
-title: INNKU
-id: Home
+layout: section
+title: Team | INNKU
+permalink: /team/
 ---
 
 <div class="row innku-title">
-  <div class="col-lg-8 col-lg-offset-2 col-xs-12">
-    <h1>Generamos negocios en internet enfocados en resultados</h1>
+  <div class="col-lg-12">
+    <h1>Nuestro equipo</h1>
   </div>
   <div class="col-lg-offset-5 col-lg-2 col-md-offset-5 col-md-2 col-sm-offset-5 col-sm-2 col-xs-offset-4 col-xs-4">
     <div class="row">

@@ -6284,6 +6284,11 @@ body {
   @media screen and (max-width: 750px) {
     .innku-title {
       margin: 15rem 0 2rem 0; } }
+  .innku-title h1 {
+    text-transform: uppercase; }
+    @media screen and (max-width: 750px) {
+      .innku-title h1 {
+        font-size: 2.3rem; } }
 
 .innku-title-divisor {
   border-top: 5px solid #ea6570;

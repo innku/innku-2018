@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About
+layout: section
+title: About | INNKU
 permalink: /about/
 ---
 
