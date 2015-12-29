@@ -1,7 +1,7 @@
 ---
 layout: section
 title: Contact | INNKU
-permalink: /contact/
+permalink: /contact.html
 ---
 
 <div class="row innku-title">

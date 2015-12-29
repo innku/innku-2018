@@ -1,7 +1,7 @@
 ---
 layout: section
 title: Team | INNKU
-permalink: /team/
+permalink: /team.html
 ---
 
 <div class="row innku-title">
