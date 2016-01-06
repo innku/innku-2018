@@ -6302,12 +6302,13 @@ body {
   position: relative; }
   .innku-project .innku-project-frame {
     border: 5px solid #c6c5c3;
-    height: 37rem;
+    height: 39rem;
     margin-top: 10rem;
     position: absolute; }
     @media screen and (max-width: 1200px) {
       .innku-project .innku-project-frame {
-        height: 29.4rem; } }
+        height: 29.4rem;
+        margin-top: 12rem; } }
     @media screen and (max-width: 992px) {
       .innku-project .innku-project-frame {
         height: 21rem; } }
@@ -6407,6 +6408,9 @@ footer {
 
 .team {
   margin-bottom: 50px; }
+  @media screen and (max-width: 770px) {
+    .team {
+      margin-bottom: 0px; } }
 
 .member figure {
   background: #000000;
@@ -6416,8 +6420,22 @@ footer {
   overflow: hidden;
   position: relative;
   margin: 0%;
-  text-align: center;
   text-align: center; }
+  @media screen and (max-width: 1210px) {
+    .member figure {
+      height: 230px; } }
+  @media screen and (max-width: 770px) {
+    .member figure {
+      height: 273px;
+      margin-bottom: 30px;
+      margin-left: 25%; } }
+  @media screen and (max-width: 500px) {
+    .member figure {
+      margin-left: 13%; } }
+  @media screen and (max-width: 400px) {
+    .member figure {
+      margin-left: 0%;
+      height: 230px; } }
 
 .member figure img {
   display: block;
@@ -6462,6 +6480,9 @@ footer {
 .member figure p {
   font-size: 68.5%;
   letter-spacing: 1px; }
+  @media screen and (max-width: 400px) {
+    .member figure p {
+      line-height: 1.2; } }
 
 .member figure figcaption {
   color: #fff;
@@ -6481,6 +6502,9 @@ footer {
   transition: transform 0.35s;
   -webkit-transform: translate3d(0, 450%, 0);
   transform: translate3d(0, 450%, 0); }
+  @media screen and (max-width: 400px) {
+    .member figure.effect-oscar h2 {
+      margin: 7% 0 10px 0; } }
 
 .member figure.effect-oscar figcaption::before,
 .member figure.effect-oscar p {
