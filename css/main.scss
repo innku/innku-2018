@@ -102,7 +102,6 @@ body {
     }
   }
 
-
 }
 
 .innku-title-divisor {
@@ -120,12 +119,13 @@ body {
 
   .innku-project-frame {
     border: 5px solid $light-grey;
-    height: 37rem;
+    height: 39rem;
     margin-top: 10rem;
     position: absolute;
 
     @media screen and (max-width: 1200px) {
       height: 29.4rem;
+      margin-top: 12rem;
     }
 
     @media screen and (max-width: 992px) {
@@ -285,6 +285,10 @@ footer {
 
 .team{
   margin-bottom: 50px;
+
+  @media screen and (max-width: 770px) {
+    margin-bottom: 0px;
+  }
 }
 
 .member figure {
@@ -296,7 +300,26 @@ footer {
   position: relative;
   margin: 0%;
   text-align: center;
-  text-align: center;
+
+  @media screen and (max-width: 1210px) {
+    height: 230px;
+  }
+
+  @media screen and (max-width: 770px) {
+    height: 273px;
+    margin-bottom: 30px;
+    margin-left: 25%;
+  }
+
+  @media screen and (max-width: 500px) {
+    margin-left: 13%;
+  }
+
+  @media screen and (max-width: 400px) {
+    margin-left: 0%;
+    height: 230px;
+  }
+
 }
 
 .member figure img {
@@ -350,6 +373,11 @@ footer {
 .member figure p {
   font-size: 68.5%;
   letter-spacing: 1px;
+
+  @media screen and (max-width: 400px) {
+    line-height: 1.2;
+  }
+
 }
 
 .member figure figcaption {
@@ -372,6 +400,10 @@ footer {
   transition: transform 0.35s;
   -webkit-transform: translate3d(0,450%,0);
   transform: translate3d(0,450%,0);
+
+  @media screen and (max-width: 400px) {
+    margin: 7% 0 10px 0;
+  }
 }
 
 .member figure.effect-oscar figcaption::before,
