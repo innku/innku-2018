@@ -7,14 +7,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand logo" href="{{site.baseurl}}"><img src="img/logo.svg" /></a>
+      <a class="navbar-brand logo" href="{{site.url}}"><img src="img/logo.svg" /></a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-aling">
         <li class="{% if page.url == '{{site.url}}' %}active{% endif%}"><a href="{{site.url}}">Home</a></li>
         <li class="{% if page.url == '/about.html' %}active{% endif%}"><a href="{{site.url}}/about.html" target="_self">Nosotros</a></li>
         <li class="{% if page.url == '/team.html' %}active{% endif%}"><a href="{{site.url}}/team.html" target="_self">Equipo</a></li>
-        <li class="{% if page.url == '/contact.html' %}active{% endif%}"><a href="{{site.baseurl}}/contact.html" target="_self">Contacto</a></li>
+        <li class="{% if page.url == '/contact.html' %}active{% endif%}"><a href="{{site.url}}/contact.html" target="_self">Contacto</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
