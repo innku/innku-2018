@@ -2,7 +2,7 @@
 title: Innku
 email: info@innku.com
 description: We are experts in creating software products. We develop web solutions, accessible and ready to use in weeks.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://innku.github.io/innku-2016" # the base hostname & protocol for your site
 twitter_username: innku
 github_username: innku
