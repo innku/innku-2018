@@ -22,7 +22,7 @@ permalink: /team.html
   {% for team in site.data.team.abi %}
     <div class="col-lg-4 col-sm-4 col-xs-12 text-center member">
       <figure class="effect-oscar">
-        <img src="img/team/abi.jpg">
+        <img src="{{ team.image }}">
         <figcaption>
           <h2><span>{{ team.name }}</span> {{ team.last }}</h2>
           <p>{{ team.description}}</p>
@@ -34,7 +34,7 @@ permalink: /team.html
   {% for team in site.data.team.adrian %}
     <div class="col-lg-4 col-sm-4 col-xs-12 text-center member">
       <figure class="effect-oscar">
-        <img src="img/team/adrian.jpg">
+        <img src="{{ team.image }}">
         <figcaption>
           <h2><span>{{ team.name }}</span> {{ team.last }}</h2>
           <p>{{ team.description}}</p>
@@ -46,7 +46,7 @@ permalink: /team.html
   {% for team in site.data.team.beto %}
     <div class="col-lg-4 col-sm-4 col-xs-12 text-center member">
       <figure class="effect-oscar">
-        <img src="img/team/beto.jpg">
+        <img src="{{ team.image }}">
         <figcaption>
           <h2><span>{{ team.name }}</span> {{ team.last }}</h2>
           <p>{{ team.description}}</p>
@@ -62,7 +62,7 @@ permalink: /team.html
   {% for team in site.data.team.angel %}
     <div class="col-lg-4 col-sm-4 col-xs-12 text-center member">
       <figure class="effect-oscar">
-        <img src="img/team/angel.png">
+        <img src="{{ team.image }}">
         <figcaption>
           <h2><span>{{ team.name }}</span> {{ team.last }}</h2>
           <p>{{ team.description}}</p>
@@ -74,7 +74,7 @@ permalink: /team.html
   {% for team in site.data.team.benito %}
     <div class="col-lg-4 col-sm-4 col-xs-12 text-center member">
       <figure class="effect-oscar">
-        <img src="img/team/benito.jpg">
+        <img src="{{ team.image }}">
         <figcaption>
           <h2><span>{{ team.name }}</span> {{ team.last }}</h2>
           <p>{{ team.description }}</p>
@@ -86,7 +86,7 @@ permalink: /team.html
   {% for team in site.data.team.furia %}
     <div class="col-lg-4 col-sm-4 col-xs-12 text-center member">
       <figure class="effect-oscar">
-        <img src="img/team/furia.jpg">
+        <img src="{{ team.image }}">
         <figcaption>
           <h2><span>{{ team.name }}</span> {{ team.last }}</h2>
           <p>{{ team.description }}</p>
@@ -102,7 +102,7 @@ permalink: /team.html
   {% for team in site.data.team.edith %}
     <div class="col-lg-4 col-sm-4 col-xs-12 text-center member">
       <figure class="effect-oscar">
-        <img src="img/team/edith.jpg">
+        <img src="{{ team.image }}">
         <figcaption>
           <h2><span>{{ team.name }}</span> {{ team.last }}</h2>
           <p>{{ team.description }}</p>
@@ -114,7 +114,7 @@ permalink: /team.html
   {% for team in site.data.team.elias %}
     <div class="col-lg-4 col-sm-4 col-xs-12 text-center member">
       <figure class="effect-oscar">
-        <img src="img/team/elias.jpg">
+        <img src="{{ team.image }}">
         <figcaption>
           <h2><span>{{ team.name }}</span> {{ team.last }}</h2>
           <p>{{ team.description }}</p>
@@ -126,7 +126,7 @@ permalink: /team.html
   {% for team in site.data.team.gabo %}
     <div class="col-lg-4 col-sm-4 col-xs-12 text-center member">
       <figure class="effect-oscar">
-        <img src="img/team/gabo.jpg">
+        <img src="{{ team.image }}">
         <figcaption>
           <h2><span>{{ team.name }}</span> {{ team.last }}</h2>
           <p>{{ team.description }}</p>
@@ -142,7 +142,7 @@ permalink: /team.html
   {% for team in site.data.team.george %}
     <div class="col-lg-4 col-sm-4 col-xs-12 text-center member">
       <figure class="effect-oscar">
-        <img src="img/team/george.jpg">
+        <img src="{{ team.image }}">
         <figcaption>
           <h2><span>{{ team.name }}</span> {{ team.last }}</h2>
           <p>{{ team.description }}</p>
@@ -154,7 +154,7 @@ permalink: /team.html
   {% for team in site.data.team.sarait %}
     <div class="col-lg-4 col-sm-4 col-xs-12 text-center member">
       <figure class="effect-oscar">
-        <img src="img/team/sarait.jpg">
+        <img src="{{ team.image }}">
         <figcaption>
           <h2><span>{{ team.name }}</span> {{ team.last }}</h2>
           <p>{{ team.description }}</p>
@@ -166,7 +166,7 @@ permalink: /team.html
   {% for team in site.data.team.sebas %}
     <div class="col-lg-4 col-sm-4 col-xs-12 text-center member">
       <figure class="effect-oscar">
-        <img src="img/team/sebas.jpg">
+        <img src="{{ team.image }}">
         <figcaption>
           <h2><span>{{ team.name }}</span> {{ team.last }}</h2>
           <p>{{ team.description }}</p>
