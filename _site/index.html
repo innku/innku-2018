@@ -11,9 +11,9 @@
 
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="canonical" href="http://www.innku.com/">
-  <link rel="alternate" type="application/rss+xml" title="Innku" href="http://www.innku.com/feed.xml">
+  <link rel="stylesheet" href="/innku-2016/css/main.css">
+  <link rel="canonical" href="http://innku.github.io/innku-2016/innku-2016/">
+  <link rel="alternate" type="application/rss+xml" title="Innku" href="http://innku.github.io/innku-2016/innku-2016/feed.xml">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
@@ -30,18 +30,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand logo" href="index.html"><img src="img/logo.svg" /></a>
+      <a class="navbar-brand logo" href="/innku-2016/"><img src="img/logo.svg" /></a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-aling">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="about.html" target="_self">Nosotros</a></li>
-        <li><a href="team.html" target="_self">Equipo</a></li>
-        <li><a href="contact.html" target="_self">Contacto</a></li>
+        <li class="active"><a href="/innku-2016/">Home</a></li>
+        <li class=""><a href="/innku-2016/about.html" target="_self">Nosotros</a></li>
+        <li class=""><a href="/innku-2016/team.html" target="_self">Equipo</a></li>
+        <li class=""><a href="/innku-2016/contact.html" target="_self">Contacto</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
 </nav>
+
 
     <div class="container">
       <div class="row innku-title">
@@ -99,7 +100,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12 innku-project-title">
-          <h2>Ayudamos a cientos de usuarios a <span>encontrar</span> su boleto de autobus</h2>
+          <h2>Conectamos a empresas con transportistas de <span>forma segura</span></h2>
         </div>
       </div>
       <div class="row">
@@ -234,11 +235,10 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <!-- a class="navbar-brand" href="#">Project name</a -->
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav nav-pills nav-stacked">
-          <li class="active"><a href="#reserbus"><img class="innku-icon" src="img/icon-reserbus.svg" /></a></li>
+          <li><a href="#reserbus"><img class="innku-icon" src="img/icon-reserbus.svg" /></a></li>
           <li><a href="#rutanet"><img class="innku-icon" src="img/icon-rutanet.svg" /></a></li>
           <li><a href="#disculpe-doctor"><img class="innku-icon" src="img/icon-disculpe-doctor.svg" /></a></li>
           <li><a href="#aventones"><img class="innku-icon" src="img/icon-aventones.svg" /></a></li>
@@ -249,26 +249,16 @@
 
 
     <script type="text/javascript">
-  jQuery(document).ready(function($){
-    // Add scrollspy to <body>
-    $('body').scrollspy({ target: '#innku-projects', offset: 50 });
+  jQuery(document).ready(function(){
+    $('body').scrollspy({ target: '#innku-projects' }); // Add scrollspy to <body>
 
-    // Add smooth scrolling to all links inside a navbar
-    $("#innku-projects a").on('click', function(event){
-
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash (#)
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area (the speed of the animation)
-      $('html, body').animate({
+    $("#innku-projects a").on('click', function(event){ // Add smooth scrolling to all links inside a navbar
+      event.preventDefault(); // Prevent default anchor click behavior - Si se llama a este método, no se activará la acción predeterminada del evento.
+      var hash = this.hash; // Store hash (#)
+      $('html, body').animate({ // Using jQuery's animate() method to add smooth page scroll - The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area (the speed of the animation)
         scrollTop: $(hash).offset().top
       }, 800, function(){
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
+        window.location.hash = hash; // Add hash (#) to URL when done scrolling (default click behavior)
       });
     });
 
@@ -287,11 +277,10 @@
         }
       }
     }
+
     $(window).on('scroll', function() {checkScroll()});
 
-  });
-
-
+  })
 </script>
 
 
