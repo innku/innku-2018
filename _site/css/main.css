@@ -6587,23 +6587,18 @@ footer {
     width: 100%; }
     @media screen and (max-width: 480px) {
       .home .section .info-top {
-        height: 40vh; } }
+        height: 35vh; } }
     .home .section .info-top .info_top_content {
-      padding-top: 15%; }
+      padding-top: 20%; }
       @media screen and (max-width: 992px) {
         .home .section .info-top .info_top_content {
           padding-top: 35%; } }
       @media screen and (max-width: 480px) {
         .home .section .info-top .info_top_content {
-          padding-top: 10%; } }
-      .home .section .info-top .info_top_content img {
-        margin-bottom: 30px;
-        width: 20%; }
-        @media screen and (max-width: 992px) {
-          .home .section .info-top .info_top_content img {
-            width: 40%; } }
+          padding-top: 20%; } }
       .home .section .info-top .info_top_content h1 {
         color: white;
+        text-transform: uppercase;
         width: 70%; }
         @media screen and (max-width: 992px) {
           .home .section .info-top .info_top_content h1 {
@@ -6611,7 +6606,7 @@ footer {
             width: 90%; } }
         @media screen and (max-width: 480px) {
           .home .section .info-top .info_top_content h1 {
-            font-size: 18px;
+            font-size: 16px;
             width: 100%; } }
   .home .section .info {
     background-color: white;
@@ -6619,16 +6614,22 @@ footer {
     width: 100%; }
     @media screen and (max-width: 480px) {
       .home .section .info {
-        height: 60vh; } }
+        height: 65vh; } }
     .home .section .info .info_content {
       padding-top: 3%; }
+      .home .section .info .info_content img {
+        margin-bottom: 10px;
+        width: 20%; }
+        @media screen and (max-width: 992px) {
+          .home .section .info .info_content img {
+            width: 40%; } }
       .home .section .info .info_content p {
         color: #4d4d4d;
         font-size: 1.05em;
         margin-bottom: 30px; }
         @media screen and (max-width: 480px) {
           .home .section .info .info_content p {
-            font-size: .9em;
+            font-size: .8em;
             line-height: 150%;
             margin-bottom: 10px; } }
       .home .section .info .info_content a {
