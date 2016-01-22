@@ -3,10 +3,10 @@
   <channel>
     <title>Innku</title>
     <description>We are experts in creating software products. We develop web solutions, accessible and ready to use in weeks.</description>
-    <link>http://innku.github.io/innku-2016/</link>
-    <atom:link href="http://innku.github.io/innku-2016/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Jan 2016 12:49:56 -0600</pubDate>
-    <lastBuildDate>Fri, 22 Jan 2016 12:49:56 -0600</lastBuildDate>
+    <link>http://innku.github.io/innku-2016/innku-2016/</link>
+    <atom:link href="http://innku.github.io/innku-2016/innku-2016/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 22 Jan 2016 12:56:45 -0600</pubDate>
+    <lastBuildDate>Fri, 22 Jan 2016 12:56:45 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,8 +28,8 @@
 &lt;p&gt;&lt;img src=&quot;/assets/screenshot.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 22 Jan 2016 15:32:21 -0600</pubDate>
-        <link>http://innku.github.io/innku-2016/jekyll/update/2016/01/22/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://innku.github.io/innku-2016/jekyll/update/2016/01/22/welcome-to-jekyll.html</guid>
+        <link>http://innku.github.io/innku-2016/innku-2016/jekyll/update/2016/01/22/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://innku.github.io/innku-2016/innku-2016/jekyll/update/2016/01/22/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -58,8 +58,8 @@
 &lt;p&gt;&lt;img src=&quot;/assets/screenshot.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 21 Jan 2016 15:32:21 -0600</pubDate>
-        <link>http://innku.github.io/innku-2016/jekyll/update/2016/01/21/otro-post.html</link>
-        <guid isPermaLink="true">http://innku.github.io/innku-2016/jekyll/update/2016/01/21/otro-post.html</guid>
+        <link>http://innku.github.io/innku-2016/innku-2016/jekyll/update/2016/01/21/otro-post.html</link>
+        <guid isPermaLink="true">http://innku.github.io/innku-2016/innku-2016/jekyll/update/2016/01/21/otro-post.html</guid>
         
         
         <category>jekyll</category>
