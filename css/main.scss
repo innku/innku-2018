@@ -265,6 +265,10 @@ footer {
     @media screen and (max-width: 750px) {
       height: 24vh;
     }
+
+    @media screen and (max-width: 480px) {
+      height: 14vh;
+    }
   }
 
   .footer-sm-extra-margin {
