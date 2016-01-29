@@ -12,7 +12,7 @@ permalink: /blog.html
         <ul style="list-style-position: inside">
           {% for post in site.posts %}
            <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             <br>
             <span class="date_blog">{{ post.date | date: "%d %B %Y" }}</span>
             <p>{{ post.excerpt }}</p>
