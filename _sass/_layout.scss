@@ -206,6 +206,7 @@
 
 .page-content {
     padding: $spacing-unit 0;
+
 }
 
 .page-heading {
@@ -252,6 +253,10 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+
+    a{
+        color: $red;
+    }
 
     h2 {
         font-size: 32px;

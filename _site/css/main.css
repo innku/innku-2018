@@ -6123,6 +6123,8 @@ pre {
 
 .post-content {
   margin-bottom: 30px; }
+  .post-content a {
+    color: #ea6570; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {
