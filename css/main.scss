@@ -56,24 +56,12 @@ $grey: #797874;
         "syntax-highlighting"
 ;
 
-.btn-innku {
-  color: $almost-white;
-  background-color: $red;
-  border-color: darken( $red, 10% );
-}
-
-.btn-innku:hover, .btn-innku:active {
-  color: $almost-white;
-  background-color: darken( $red, 10% );
-  border-color: darken( $red, 10% );
-}
-
 body {
   font-family: 'Lato', sans-serif;
   position: relative;
 }
 
-.navbar-aling{
+.navbar-aling {
   float: right;
 
   @media screen and (max-width: 750px) {
@@ -86,6 +74,182 @@ body {
   width: 125px;
 }
 
+// Index content
+.home {
+  .welcome-screen {
+    background: url(../img/home/back-innku.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+    .title {
+      position: relative;
+      top: 40%;
+
+      h1 {
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+
+        @media screen and (max-width: 480px) {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .divider {
+      background-color: $red;
+      margin: 0 auto;
+      height: 5px;
+      position: relative;
+      top: 50px;
+      width: 60px;
+    }
+
+    .arrow {
+      margin-top: 20vh;
+      display: block;
+      position: relative;
+      text-align: center;
+
+      /* top: 80%;
+
+      @media screen and (max-width: 992px) {
+        top: 65%;
+      }
+
+      @media screen and (max-width 480px) {
+        top: 90%;
+      }*/
+
+      img{
+        width: 60px;
+        height: 60px;
+
+        @media screen and (max-width 480px) {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+
+  }
+
+  section {
+    height: 100vh;
+    width: 100vw;
+
+    .title-project {
+      height: 65vh;
+      @media screen and (max-width: 480px) {
+        height: 35vh;
+      }
+
+      div {
+        padding-top: 27vh;
+        @media screen and (max-width: 992px) {
+          padding-top: 35%;
+        }
+        @media screen and (max-width: 480px) {
+          padding-top: 20%;
+        }
+
+        h2 {
+          color: white;
+          text-transform: uppercase;
+          @media screen and (max-width: 992px) {
+            font-size: 30px;
+          }
+          @media screen and (max-width: 480px) {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    .info-project {
+      background-color: white;
+      height: 35vh;
+      @media screen and (max-width: 480px) {
+        height: 65vh;
+      }
+
+      div {
+        padding-top: 3%;
+
+        img {
+          margin-bottom: 10px;
+          width: 20%;
+          @media screen and (max-width: 992px) {
+            width: 40%;
+          }
+        }
+
+        p {
+          color: $dark-grey;
+          font-size: 1.05em;
+          margin-bottom: 30px;
+
+          @media screen and (max-width: 480px) {
+            font-size: .8em;
+            line-height: 150%;
+            margin-bottom: 10px;
+          }
+        }
+
+        a {
+          color: white;
+          margin-right: 20px;
+
+          @media screen and (max-width: 480px) {
+            margin-bottom: 7px;
+          }
+        }
+
+        .btn-innku {
+          color: $almost-white;
+          background-color: $red;
+          border-color: darken( $red, 10% );
+        }
+
+        .btn-innku:hover, .btn-innku:active {
+          color: $almost-white;
+          background-color: darken( $red, 10% );
+          border-color: darken( $red, 10% );
+        }
+      }
+
+    }
+
+
+  }
+
+  .reserbus {
+    background: url(../img/home/back-reserbus.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .rutanet {
+    background: url(../img/home/back-rutanet.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .disculpe_dr {
+    background: url(../img/home/back-ddr.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .aventones {
+    background: url(../img/home/back-aventones.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+// Section
 .innku-title {
   margin: 20rem 0;
   text-align: center;
@@ -112,7 +276,7 @@ body {
     margin-top: 10rem;
   }
 }
-
+/*
 .innku-project {
   padding-top: 10rem;
   position: relative;
@@ -184,17 +348,26 @@ body {
     }
   }
 }
-
+*/
 .innku-projects-nav {
   bottom: 0;
-  margin-right: 15px;
+  margin-right: 10px;
   position: fixed;
   right: 0;
   top: 50%;
   transform: translateY(-80px);
 
+  .navbar {
+    border-radius: 0px!important;
+
+    .nav-pills > li > a {
+      border-radius: 0px!important;
+    }
+  }
+
   .innku-inside-projects-nav {
     display: inline-block;
+    border: 0px!important;
 
     .navbar-collapse {
       padding-left: 0px;
@@ -205,7 +378,7 @@ body {
       margin-left: 0px;
 
       li.active > a {
-        background: $light-grey;
+        background: lighten($grey-color, 20%);
       }
     }
 
@@ -456,190 +629,4 @@ footer {
       margin: 0 10px;
     }
   }
-}
-
-.home{
-
-  .section_innku{
-    background: url(../img/home/back-innku.jpg) no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-
-    .title{
-      color: white;
-      text-transform: uppercase;
-      text-align: center;
-      position: relative;
-      top: 40%;
-
-      h1{
-        @media screen and (max-width: 480px) {
-          font-size: 20px;
-        }
-      }
-
-    }
-
-    .divider{
-      background-color: $red;
-      margin: 0 auto;
-      height: 5px;
-      position: relative;
-      top: 50px;
-      width: 60px;
-    }
-
-    .arrow{
-      text-align: center;
-      position: relative;
-      top: 80%;
-
-      @media screen and (max-width: 992px) {
-        top: 65%;
-      }
-
-      @media screen and (max-width 480px) {
-        top: 90%;
-      }
-
-      img{
-        width: 60px;
-        height: 60px;
-
-        @media screen and (max-width 480px) {
-          width: 40px;
-          height: 40px;
-        }
-      }
-    }
-
-  }
-
-  .section{
-    height: 100vh;
-    width: 100%;
-
-    .info-top{
-      height: 65vh;
-      width: 100%;
-
-      @media screen and (max-width: 480px) {
-        height: 35vh;
-      }
-
-      .info_top_content{
-        padding-top: 20%;
-
-        @media screen and (max-width: 992px) {
-          padding-top: 35%;
-        }
-
-        @media screen and (max-width: 480px) {
-          padding-top: 20%;
-        }
-
-        h1{
-          color: white;
-          text-transform: uppercase;
-          width: 70%;
-
-          @media screen and (max-width: 992px) {
-            font-size: 30px;
-            width: 90%;
-          }
-
-          @media screen and (max-width: 480px) {
-            font-size: 16px;
-            width: 100%;
-          }
-
-        }
-      }
-
-    }
-
-    .info{
-      background-color: white;
-      height: 35vh;
-      width: 100%;
-
-      @media screen and (max-width: 480px) {
-        height: 65vh;
-      }
-
-        .info_content{
-          padding-top: 3%;
-
-          img{
-            margin-bottom: 10px;
-            width: 20%;
-
-            @media screen and (max-width: 992px) {
-              width: 40%;
-            }
-          }
-
-          p{
-            color: $dark-grey;
-            font-size: 1.05em;
-            margin-bottom: 30px;
-
-            @media screen and (max-width: 480px) {
-              font-size: .8em;
-              line-height: 150%;
-              margin-bottom: 10px;
-            }
-          }
-
-          a{
-            color: white;
-            margin-right: 20px;
-
-            @media screen and (max-width: 480px) {
-              margin-bottom: 7px;
-            }
-          }
-        }
-
-    }
-
-  }
-
-  .reserbus{
-    background: url(../img/home/back-reserbus.jpg) no-repeat;
-    background-size: cover;
-
-    @media screen and (max-width: 992px) {
-      background-position: center;
-    }
-  }
-
-  .rutanet{
-    background: url(../img/home/back-rutanet.jpg) no-repeat;
-    background-size: cover;
-
-    @media screen and (max-width: 992px) {
-      background-position: center;
-    }
-  }
-
-  .disculpe_dr{
-    background: url(../img/home/back-ddr.jpg) no-repeat;
-    background-size: cover;
-
-    @media screen and (max-width: 992px) {
-      background-position: center;
-    }
-  }
-
-  .aventones{
-    background: url(../img/home/back-aventones.jpg) no-repeat;
-    background-size: cover;
-
-    @media screen and (max-width: 992px) {
-      background-position: center;
-    }
-  }
-
 }
