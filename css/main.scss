@@ -351,14 +351,23 @@ body {
 */
 .innku-projects-nav {
   bottom: 0;
-  margin-right: 15px;
+  margin-right: 10px;
   position: fixed;
   right: 0;
   top: 50%;
   transform: translateY(-80px);
 
+  .navbar {
+    border-radius: 0px!important;
+
+    .nav-pills > li > a {
+      border-radius: 0px!important;
+    }
+  }
+
   .innku-inside-projects-nav {
     display: inline-block;
+    border: 0px!important;
 
     .navbar-collapse {
       padding-left: 0px;
@@ -369,7 +378,7 @@ body {
       margin-left: 0px;
 
       li.active > a {
-        background: $light-grey;
+        background: lighten($grey-color, 20%);
       }
     }
 
