@@ -1,11 +1,9 @@
 - proyect: Disculpe Doctor
-  title: CONECTAMOS A PERSONAS CON MÉDICOS DE ALTA CALIDAD DE MANERA SEGURA, PRIVADA Y EN TIEMPO REAL
+  title: Acceso a doctores de alta calidad 24/7
   description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Disculpe Doctor te da acceso a un chat privado para recibir asesoría médica de doctores de alta calidad cuando la necesites desde cualquier lugar.
+    Que tu primer fuente de información para tu salud sea un doctor de calidad.
   logo: img/home/logo-disculpe-doctor.svg
   site: http://www.disculpedoctor.com/
   appstore: https://itunes.apple.com/mx/app/disculpe-doctor/id1027534072
-  android: https://play.google.com
+  android: https://play.google.com/store/apps/details?id=com.innku.disculpedoctor
