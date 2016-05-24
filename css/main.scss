@@ -411,7 +411,7 @@ body {
 
 }
 
-footer {
+.innku-footer {
   margin: 10rem 0;
 
   h3 {
@@ -422,63 +422,62 @@ footer {
   p {
     color: $dark-grey;
   }
+}
 
-  .footer-icon {
-    img {
-      width: 32px;
-      margin-right: 5px;
-    }
-
-    span {
-      margin-top: 4px;
-      position: absolute;
-    }
+.innku-footer-block__mobile-height {
+  @media screen and (max-width: 992px) {
+    height: 32vh;
   }
 
-  .footer-icon-extra {
-    display: block;
-    float: left;
-    margin-right: 5px;
-    padding-bottom: 70px;
+  @media screen and (max-width: 768px) {
+    height: 14vh;
+  }
+
+  @media screen and (max-width: 750px) {
+    height: 24vh;
+  }
+
+  @media screen and (max-width: 480px) {
+    height: 14vh;
+  }
+}
+
+.innku-footer-block__mobile-margin {
+  @media screen and (max-width: 992px) {
+    margin-left: 37px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-left: 37px;
+  }
+
+  @media screen and (max-width: 750px) {
+    margin-left: 37px;
+  }
+}
+
+.innku-footer-icon-block {
+  img {
     width: 32px;
-
-    img {
-      width: 32px;
-      margin-right: 5px;
-    }
+    margin-right: 5px;
   }
 
-  .footer-sm {
-    @media screen and (max-width: 992px) {
-      height: 32vh;
-    }
-
-    @media screen and (max-width: 768px) {
-      height: 14vh;
-    }
-
-    @media screen and (max-width: 750px) {
-      height: 24vh;
-    }
-
-    @media screen and (max-width: 480px) {
-      height: 14vh;
-    }
+  span {
+    margin-top: 4px;
+    position: absolute;
   }
+}
 
-  .footer-sm-extra-margin {
-    @media screen and (max-width: 992px) {
-      margin-left: 37px;
-    }
+.innku-footer-icon-block__extra-padding {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  padding-bottom: 70px;
+  width: 32px;
 
-    @media screen and (max-width: 768px) {
-      margin-left: 37px;
-    }
-
-    @media screen and (max-width: 750px) {
-      margin-left: 37px;
-    }
-
+  img {
+    width: 32px;
+    margin-right: 5px;
   }
 }
 
