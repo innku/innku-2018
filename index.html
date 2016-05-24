@@ -9,7 +9,7 @@ id: Home
 
     <section id="innku-projects" class="welcome-screen">
       <div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 text-center title">
-        <h1>Generamos negocios en internet enfocados en resultados</h1>
+        <h1>Nos asociamos con personas extraordinarias para crear y escalar negocios en línea</h1>
         <div class="divider"></div>
         <a href="#reserbus" class="arrow bounce">
           <img src="img/down-arrow.svg" alt="arrow">
@@ -28,7 +28,7 @@ id: Home
           <div class="col-lg-offset-1 col-lg-10 col-md-12">
             <img src="{{ projects.logo }}" alt="{{ projects.proyect }}" />
             <p>{{ projects.description }}</p>
-            <a href="{{ projects.site }}" class="btn btn-innku" role="button" target="_blank">Visita el sitio</a>
+            <a href="{{ projects.site }}" class="btn btn-innku" role="button" target="_blank">Ir al sitio</a>
             <br class="visible-xs">
             <a href="{{ projects.appstore }}" class="btn btn-innku" role="button" target="_blank">Descarga la app para iOS</a>
             <br class="visible-xs">
@@ -49,7 +49,7 @@ id: Home
           <div class="col-lg-offset-1 col-lg-10 col-md-12">
             <img src="{{ projects.logo }}" alt="{{ projects.proyect }}" />
             <p>{{ projects.description }}</p>
-            <a href="{{ projects.site }}" class="btn btn-innku" role="button" target="_blank">Visita el sitio</a>
+            <a href="{{ projects.site }}" class="btn btn-innku" role="button" target="_blank">Ir al sitio</a>
           </div>
         </div>
       {% endfor %}
@@ -66,7 +66,7 @@ id: Home
           <div class="col-lg-offset-1 col-lg-10 col-md-12">
             <img src="{{ projects.logo }}" alt="{{ projects.proyect }}" />
             <p>{{ projects.description }}</p>
-            <a href="{{ projects.site }}" class="btn btn-innku" role="button" target="_blank">Visita el sitio</a>
+            <a href="{{ projects.site }}" class="btn btn-innku" role="button" target="_blank">Ir al sitio</a>
             <br class="visible-xs">
             <a href="{{ projects.appstore }}" class="btn btn-innku" role="button" target="_blank">Descarga la app para iOS</a>
             <br class="visible-xs">
@@ -87,7 +87,60 @@ id: Home
           <div class="col-lg-offset-1 col-lg-10 col-md-12">
             <img src="{{ projects.logo }}" alt="{{ projects.proyect }}" />
             <p>{{ projects.description }}</p>
-            <a href="{{ projects.site }}" class="btn btn-innku" role="button" target="_blank">Visita el sitio</a>
+            <a href="{{ projects.history }}" class="btn btn-innku" role="button" target="_blank">Conoce la historia</a>
+            <a href="{{ projects.site }}" class="btn btn-innku" role="button" target="_blank">Conoce BlaBlaCar</a>
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+
+    <section id="rides" class="rides">
+      {% for projects in site.data.projects.rides %}
+        <div class="title-project">
+          <div class="col-lg-offset-1 col-lg-7 col-md-offset-1 col-md-7">
+            <h2>{{ projects.title }}</h2>
+          </div>
+        </div>
+        <div class="info-project">
+          <div class="col-lg-offset-1 col-lg-10 col-md-12">
+            <img src="{{ projects.logo }}" alt="{{ projects.proyect }}" />
+            <p>{{ projects.description }}</p>
+            <a href="{{ projects.history }}" class="btn btn-innku" role="button" target="_blank">Conoce la historia</a>
+            <a href="{{ projects.site }}" class="btn btn-innku" role="button" target="_blank">Conoce BlaBlaCar</a>
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+
+    <section id="briq" class="briq">
+      {% for projects in site.data.projects.briq %}
+        <div class="title-project">
+          <div class="col-lg-offset-1 col-lg-7 col-md-offset-1 col-md-7">
+            <h2>{{ projects.title }}</h2>
+          </div>
+        </div>
+        <div class="info-project">
+          <div class="col-lg-offset-1 col-lg-10 col-md-12">
+            <img src="{{ projects.logo }}" alt="{{ projects.proyect }}" />
+            <p>{{ projects.description }}</p>
+            <a href="{{ projects.site }}" class="btn btn-innku" role="button" target="_blank">Ir al sitio</a>
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+
+    <section id="lunch-break" class="lunch-break">
+      {% for projects in site.data.projects.lunch-break %}
+        <div class="title-project">
+          <div class="col-lg-offset-1 col-lg-7 col-md-offset-1 col-md-7">
+            <h2>{{ projects.title }}</h2>
+          </div>
+        </div>
+        <div class="info-project">
+          <div class="col-lg-offset-1 col-lg-10 col-md-12">
+            <img src="{{ projects.logo }}" alt="{{ projects.proyect }}" />
+            <p>{{ projects.description }}</p>
+            <a href="{{ projects.site }}" class="btn btn-innku" role="button" target="_blank">Ir al sitio</a>
           </div>
         </div>
       {% endfor %}

@@ -1,10 +1,8 @@
 - proyect: Reserbus
-  title: AYUDAMOS A CIENTOS DE USUARIOS A ENCONTRAR SU BOLETO DE AUTOBUS
+  title: Compra boletos de autobús en línea fácil y rápido.
   description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Reserbus te permite encontrar información y comprar boletos de autobús a cientos de destinos en México y Estados Unidos de manera fácil y segura.
+    Es la primer plataforma en reunir información de decenas de líneas de autobús y otros medios de transporte en México.
   logo: img/home/logo-reserbus.svg
   site: http://reserbus.mx
   appstore: https://itunes.apple.com/mx/app/reserbus/id884367907
