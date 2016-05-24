@@ -75,200 +75,178 @@ body {
 }
 
 // Index content
-.home {
-  .welcome-screen {
-    background: url(../img/home/back-innku.jpg) no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
+.welcome-screen {
+  background: url(../img/home/back-innku.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 
-    .title {
-      position: relative;
-      top: 40%;
+  .title {
+    position: relative;
+    top: 40%;
 
-      h1 {
-        color: white;
-        text-transform: uppercase;
-        text-align: center;
-
-        @media screen and (max-width: 480px) {
-          font-size: 20px;
-        }
-      }
-    }
-
-    .divider {
-      background-color: $red;
-      margin: 0 auto;
-      height: 5px;
-      position: relative;
-      top: 50px;
-      width: 60px;
-    }
-
-    .arrow {
-      margin-top: 20vh;
-      display: block;
-      position: relative;
+    h1 {
+      color: white;
+      text-transform: uppercase;
       text-align: center;
 
-      /* top: 80%;
-
-      @media screen and (max-width: 992px) {
-        top: 65%;
+      @media screen and (max-width: 480px) {
+        font-size: 20px;
       }
+    }
+  }
+
+  .divider {
+    background-color: $red;
+    margin: 0 auto;
+    height: 5px;
+    position: relative;
+    top: 50px;
+    width: 60px;
+  }
+
+  .arrow {
+    margin-top: 20vh;
+    display: block;
+    position: relative;
+    text-align: center;
+
+    img{
+      width: 60px;
+      height: 60px;
 
       @media screen and (max-width 480px) {
-        top: 90%;
-      }*/
-
-      img{
-        width: 60px;
-        height: 60px;
-
-        @media screen and (max-width 480px) {
-          width: 40px;
-          height: 40px;
-        }
+        width: 40px;
+        height: 40px;
       }
     }
-
   }
 
-  section {
-    height: 100vh;
-    width: 100vw;
+}
 
-    .title-project {
-      height: 65vh;
+.reserbus {
+  background: url(../img/home/back-reserbus.jpg) no-repeat;
+}
+
+.rutanet {
+  background: url(../img/home/back-rutanet.jpg) no-repeat;
+}
+
+.disculpe_dr {
+  background: url(../img/home/back-ddr.jpg) no-repeat;
+}
+
+.aventones {
+  background: url(../img/home/back-aventones.jpg) no-repeat;
+}
+
+.rides {
+  background: url(../img/home/back-rides.jpg) no-repeat;
+}
+
+.briq {
+  background: url(../img/home/back-briq.jpg) no-repeat;
+}
+
+.lunch-break {
+  background: url(../img/home/back-lunch-break.jpg) no-repeat;
+}
+
+.innku-index-project {
+  height: 100vh;
+  width: 100vw;
+}
+
+.innku-index-project-title {
+  height: 65vh;
+  @media screen and (max-width: 480px) {
+    height: 35vh;
+  }
+
+  div {
+    padding-top: 35vh;
+    @media screen and (max-width: 992px) {
+      padding-top: 35%;
+    }
+    @media screen and (max-width: 480px) {
+      padding-top: 20%;
+    }
+
+    h2 {
+      color: white;
+      font-size: 40px;
+      line-height: 50px;
+      text-transform: normal;
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+      @media screen and (max-width: 992px) {
+        font-size: 30px;
+        line-height: normal;
+      }
       @media screen and (max-width: 480px) {
-        height: 35vh;
+        font-size: 16px;
+        line-height: normal;
       }
+    }
+  }
+}
 
-      div {
-        padding-top: 35vh;
-        @media screen and (max-width: 992px) {
-          padding-top: 35%;
-        }
-        @media screen and (max-width: 480px) {
-          padding-top: 20%;
-        }
+.innku-index-project-image__background {
+  background-size: cover;
+  background-position: center;
+}
 
-        h2 {
-          color: white;
-          font-size: 40px;
-          line-height: 50px;
-          text-transform: normal;
-          @media screen and (max-width: 992px) {
-            font-size: 30px;
-            line-height: normal;
-          }
-          @media screen and (max-width: 480px) {
-            font-size: 16px;
-            line-height: normal;
-          }
-        }
+.innku-index-project-info {
+  background-color: white;
+  height: 35vh;
+  @media screen and (max-width: 480px) {
+    height: 65vh;
+  }
+
+  div {
+    padding-top: 3%;
+
+    img {
+      margin-bottom: 10px;
+      width: 20%;
+      @media screen and (max-width: 992px) {
+        width: 40%;
       }
     }
 
-    .info-project {
-      background-color: white;
-      height: 35vh;
+    p {
+      color: $dark-grey;
+      font-size: 1.05em;
+      margin-bottom: 30px;
+
       @media screen and (max-width: 480px) {
-        height: 65vh;
+        font-size: .8em;
+        line-height: 150%;
+        margin-bottom: 10px;
       }
-
-      div {
-        padding-top: 3%;
-
-        img {
-          margin-bottom: 10px;
-          width: 20%;
-          @media screen and (max-width: 992px) {
-            width: 40%;
-          }
-        }
-
-        p {
-          color: $dark-grey;
-          font-size: 1.05em;
-          margin-bottom: 30px;
-
-          @media screen and (max-width: 480px) {
-            font-size: .8em;
-            line-height: 150%;
-            margin-bottom: 10px;
-          }
-        }
-
-        a {
-          color: white;
-          margin-right: 20px;
-
-          @media screen and (max-width: 480px) {
-            margin-bottom: 7px;
-          }
-        }
-
-        .btn-innku {
-          color: $almost-white;
-          background-color: $red;
-          border-color: darken( $red, 10% );
-        }
-
-        .btn-innku:hover, .btn-innku:active {
-          color: $almost-white;
-          background-color: darken( $red, 10% );
-          border-color: darken( $red, 10% );
-        }
-      }
-
     }
 
+    a {
+      color: white;
+      margin-right: 20px;
 
+      @media screen and (max-width: 480px) {
+        margin-bottom: 7px;
+      }
+    }
+
+    .btn-innku {
+      color: $almost-white;
+      background-color: $red;
+      border-color: darken( $red, 10% );
+    }
+
+    .btn-innku:hover, .btn-innku:active {
+      color: $almost-white;
+      background-color: darken( $red, 10% );
+      border-color: darken( $red, 10% );
+    }
   }
 
-  .reserbus {
-    background: url(../img/home/back-reserbus.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .rutanet {
-    background: url(../img/home/back-rutanet.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .disculpe_dr {
-    background: url(../img/home/back-ddr.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .aventones {
-    background: url(../img/home/back-aventones.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .rides {
-    background: url(../img/home/back-rides.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .briq {
-    background: url(../img/home/back-briq.jpg) no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-  }
-
-  .lunch-break {
-    background: url(../img/home/back-lunch-break.jpg) no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-  }
 }
 
 // Section
@@ -298,79 +276,7 @@ body {
     margin-top: 10rem;
   }
 }
-/*
-.innku-project {
-  padding-top: 10rem;
-  position: relative;
 
-  .innku-project-frame {
-    border: 5px solid $light-grey;
-    height: 39rem;
-    margin-top: 10rem;
-    position: absolute;
-
-    @media screen and (max-width: 1200px) {
-      height: 29.4rem;
-      margin-top: 12rem;
-    }
-
-    @media screen and (max-width: 992px) {
-      height: 21rem;
-    }
-
-    @media screen and (max-width: 768px) {
-      height: 21rem;
-    }
-
-    @media screen and (max-width: 750px) {
-      border: none;
-    }
-  }
-
-  .innku-project-logo {
-    background: $almost-white;
-    margin-top: 3.2rem;
-  }
-
-  h2 {
-    color: $dark-grey;
-    font-size: 3rem;
-    font-weight: 700;
-    margin-top: 2rem;
-    text-transform: uppercase;
-
-    span {
-      color: $red;
-    }
-
-    @media screen and (max-width: 750px) {
-      font-size: 2rem;
-    }
-  }
-
-  .innku-project-divisor {
-    border-top: 5px solid $dark-grey;
-    margin: 2rem 0 3rem 15px;
-  }
-
-  p {
-    color: $grey;
-  }
-
-  .innku-project-button-group {
-    margin-top: 3rem;
-    text-align: center;
-
-    a {
-      color: $almost-white;
-    }
-
-    a:nth-child(2) {
-      margin-left: 1rem;
-    }
-  }
-}
-*/
 .innku-projects-nav {
   bottom: 0;
   margin-right: 10px;
@@ -411,6 +317,7 @@ body {
 
 }
 
+//Site footer
 .innku-footer {
   margin: 10rem 0;
 
@@ -481,6 +388,7 @@ body {
   }
 }
 
+//Equipo
 .team{
   margin-bottom: 50px;
 
