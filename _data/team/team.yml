@@ -1,5 +1,5 @@
 name: Nuestro Equipo
-member:
+team:
   - name: Gabo Arce
     description: |
       Con soluciones prácticas y efectivas deja claro que lo suyo es el diseño de interface. Disfruta de un buen café por la mañana, la música y los videojuegos. Nos han contado que guarda un par de buenas recetas debajo de la manga.
@@ -7,8 +7,8 @@ member:
 
   - name: Ricardo Arredondo
     description: |
-      Lorem
-    image: /img/team/.jpg
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula sapien eget odio condimentum.
+    image: /img/team/generico.png
 
   - name: Adrián Cuadros
     description: |
@@ -25,14 +25,9 @@ member:
       Originario de la comarca lagunera, políglota en programación y ahora dedicado a Ruby. Linuxero de corazón que para su sorpresa fue convertido a Mac. Podrá hacer muchos cambios pero asegura que jamás abandonará su amado Vim.
     image: /img/team/george.jpg
 
-  - name: Edith García
-    description: |
-      Le gusta que la llamen Edith ya que el nombre de Sonia la sigue por todos lados. Le encanta la lectura y es muy comprometida en lo que hace, su frase celebre es ¨Con todo Campeón y a Millón¨ y ahora se está haciendo todo una experta en el mundo del transporte con Rutanet.
-    image: /img/team/edith.jpg
-
   - name: David Hernández
     description: |
-      Mejor conocido como "Furia". Amante del café y hip hop latinoamericano, siempre pasas un buen rato con él. Perfeccionista en el más mínimo detalle de diseño, propositivo por naturaleza y siempre con buenas recomendaciones de lugares para comer.
+      Mejor conocido como "Furia". Amante del café y rap latinoamericano, siempre pasas un buen rato con él. Perfeccionista en el más mínimo detalle de diseño, propositivo por naturaleza y siempre con buenas recomendaciones de lugares para comer.
     image: /img/team/furia.jpg
 
   - name: Alberto Padilla
@@ -42,8 +37,8 @@ member:
 
   - name: Cristina Palacios
     description: |
-      Lorem
-    image: /img/team/.jpg
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula sapien eget odio condimentum.
+    image: /img/team/generico.png
 
   - name: Benito Serna
     description: |
@@ -52,15 +47,5 @@ member:
 
   - name: Emmanuel Serna
     description: |
-      Lorem
-    image: /img/team/.jpg
-
-  - name: Aaron Torrez
-    description: |
-      Lorem
-    image: /img/team/.jpg
-
-  - name: Paul Zavalza
-    description: |
-      Lorem
-    image: /img/team/.jpg
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula sapien eget odio condimentum.
+    image: /img/team/generico.png

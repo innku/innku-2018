@@ -35,14 +35,6 @@ $dark-grey: #4d4d4d;
 $red: #ea6570;
 $grey: #797874;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
@@ -83,9 +75,9 @@ body {
 
   .title {
     position: relative;
-    top: 40%;
+    top: 35%;
 
-    h1 {
+    h1, h2 {
       color: white;
       text-transform: uppercase;
       text-align: center;
@@ -98,15 +90,14 @@ body {
 
   .divider {
     background-color: $red;
-    margin: 0 auto;
+    margin: 30px auto;
     height: 5px;
     position: relative;
-    top: 50px;
     width: 60px;
   }
 
   .arrow {
-    margin-top: 20vh;
+    margin-top: 20px;
     display: block;
     position: relative;
     text-align: center;
@@ -395,6 +386,10 @@ body {
   @media screen and (max-width: 770px) {
     margin-bottom: 0px;
   }
+}
+
+.member {
+  margin-bottom: 50px;
 }
 
 .member figure {
