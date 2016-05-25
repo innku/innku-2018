@@ -429,8 +429,8 @@ body {
   max-width: 100%;
   opacity: 0.8;
   position: relative;
-  //-webkit-filter: grayscale(100%);
-  //filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .member figure figcaption::before,
