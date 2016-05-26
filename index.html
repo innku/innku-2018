@@ -95,24 +95,6 @@ id: Home
       {% endfor %}
     </section>
 
-    <section class="innku-index-project innku-index-project-image__background rides" id="rides">
-      {% for projects in site.data.projects.rides %}
-        <div class="innku-index-project-title">
-          <div class="col-md-offset-1 col-md-4">
-            <h2>{{ projects.title }}</h2>
-          </div>
-        </div>
-        <div class="innku-index-project-info">
-          <div class="col-md-offset-1 col-md-10">
-            <img src="{{ projects.logo }}" alt="{{ projects.proyect }}" />
-            <p>{{ projects.description }}</p>
-            <a href="{{ projects.history }}" class="btn btn-innku" role="button" target="_blank">Conoce la historia</a>
-            <a href="{{ projects.site }}" class="btn btn-innku" role="button" target="_blank">Conoce BlaBlaCar</a>
-          </div>
-        </div>
-      {% endfor %}
-    </section>
-
     <section class="innku-index-project innku-index-project-image__background briq" id="briq">
       {% for projects in site.data.projects.briq %}
         <div class="innku-index-project-title">

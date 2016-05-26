@@ -38,7 +38,7 @@ team:
   - name: Cristina Palacios
     description: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula sapien eget odio condimentum.
-    image: img/team/generico.png
+    image: img/team/cristina.jpg
 
   - name: Benito Serna
     description: |
@@ -48,4 +48,4 @@ team:
   - name: Emmanuel Serna
     description: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula sapien eget odio condimentum.
-    image: img/team/generico.png
+    image: img/team/emmanuel.jpg

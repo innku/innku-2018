@@ -81,10 +81,14 @@ body {
       color: white;
       text-transform: uppercase;
       text-align: center;
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 
       @media screen and (max-width: 480px) {
         font-size: 20px;
       }
+    }
+    h2 {
+      font-size: 28px;
     }
   }
 
@@ -241,8 +245,8 @@ body {
 }
 
 // Section
-.innku-title {
-  margin: 20rem 0;
+.innku-section-title {
+  margin: 15rem 0 10rem 0;
   text-align: center;
 
   @media screen and (max-width: 750px) {
@@ -261,7 +265,7 @@ body {
 
 .innku-title-divisor {
   border-top: 5px solid $red;
-  margin-top: 14rem;
+  margin-top: 7rem;
 
   @media screen and (max-width: 750px) {
     margin-top: 10rem;
@@ -317,11 +321,82 @@ body {
     font-size: 2rem;
     font-weight: 700;
   }
+
   p {
     color: $dark-grey;
   }
+
+  a {
+    color: $dark-grey;
+    text-decoration: none;
+  }
+
+  a:hover, a:active {
+    color: $dark-grey;
+    text-decoration: underline;
+  }
 }
 
+.innku-footer-icon-block {
+  img {
+    width: 32px;
+    margin-right: 5px;
+  }
+
+  span {
+    margin-top: 7px;
+    position: absolute;
+  }
+}
+
+.innku-footer-icon {
+  width: 32px;
+  margin-right: 5px;
+
+  .upper-line {
+    fill: #F9AAB4;
+  }
+  .background-color {
+    fill:#EA6570;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+  }
+  .front-color {
+    fill: none;
+    stroke: white;
+    stroke-width: 4;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+  }
+}
+
+.innku-footer-icon-block:hover {
+  .background-color {
+    fill: darken( $red, 10% );
+  }
+}
+.innku-footer-divider{
+  background-color: $red;
+  margin: 0 auto 60px auto;
+  height: 5px;
+  position: relative;
+  width: 60px;
+}
+/*
+.innku-footer-icon-block__extra-padding {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  padding-bottom: 70px;
+  width: 32px;
+
+  img {
+    width: 32px;
+    margin-right: 5px;
+  }
+}
 .innku-footer-block__mobile-height {
   @media screen and (max-width: 992px) {
     height: 32vh;
@@ -353,34 +428,10 @@ body {
     margin-left: 37px;
   }
 }
-
-.innku-footer-icon-block {
-  img {
-    width: 32px;
-    margin-right: 5px;
-  }
-
-  span {
-    margin-top: 4px;
-    position: absolute;
-  }
-}
-
-.innku-footer-icon-block__extra-padding {
-  display: block;
-  float: left;
-  margin-right: 5px;
-  padding-bottom: 70px;
-  width: 32px;
-
-  img {
-    width: 32px;
-    margin-right: 5px;
-  }
-}
+*/
 
 //Equipo
-.team{
+.innku-section-team {
   margin-bottom: 50px;
 
   @media screen and (max-width: 770px) {
@@ -388,11 +439,11 @@ body {
   }
 }
 
-.member {
+.innku-section-team-member {
   margin-bottom: 50px;
 }
 
-.member figure {
+.innku-section-team-member figure {
   background: #000000;
   cursor: pointer;
   float: left;
@@ -423,7 +474,7 @@ body {
 
 }
 
-.member figure img {
+.innku-section-team-member figure img {
   display: block;
   min-height: 100%;
   max-width: 100%;
@@ -433,13 +484,13 @@ body {
   filter: grayscale(100%);
 }
 
-.member figure figcaption::before,
-.member figure figcaption::after {
+.innku-section-team-member figure figcaption::before,
+.innku-section-team-member figure figcaption::after {
   pointer-events: none;
 }
 
-.member figure figcaption,
-.member figure figcaption > a {
+.innku-section-team-member figure figcaption,
+.innku-section-team-member figure figcaption > a {
   height: 100%;
   left: 0;
   position: absolute;
@@ -447,7 +498,7 @@ body {
   width: 100%;
 }
 
-.member figure figcaption > a {
+.innku-section-team-member figure figcaption > a {
   font-size: 0;
   opacity: 0;
   text-indent: 200%;
@@ -455,23 +506,19 @@ body {
   z-index: 1000;
 }
 
-.member figure h2 {
+.innku-section-team-member figure h2 {
   font-weight: 300;
   font-size: 25px;
   text-shadow: 0px 0px 10px #000000;
   word-spacing: -0.15em;
-
-  span{
-    font-weight: 800;
-  }
 }
 
-.member figure h2,
-.member figure p {
+.innku-section-team-member figure h2,
+.innku-section-team-member figure p {
   margin: 0;
 }
 
-.member figure p {
+.innku-section-team-member figure p {
   font-size: 68.5%;
   letter-spacing: 1px;
 
@@ -481,7 +528,7 @@ body {
 
 }
 
-.member figure figcaption {
+.innku-section-team-member figure figcaption {
   color: #fff;
   font-size: 1.1em;
   padding: 1.5em;
@@ -489,13 +536,13 @@ body {
   backface-visibility: hidden;
 }
 
-.member figure.effect-oscar img {
+.innku-section-team-member figure.effect-oscar img {
   opacity: 1;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
 
-.member figure.effect-oscar h2 {
+.innku-section-team-member figure.effect-oscar h2 {
   margin: 15% 0 10px 0;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -507,8 +554,8 @@ body {
   }
 }
 
-.member figure.effect-oscar figcaption::before,
-.member figure.effect-oscar p {
+.innku-section-team-member figure.effect-oscar figcaption::before,
+.innku-section-team-member figure.effect-oscar p {
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
@@ -516,41 +563,20 @@ body {
   transform: scale(0);
 }
 
-.member figure.effect-oscar:hover h2 {
+.innku-section-team-member figure.effect-oscar:hover h2 {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
 
-.member figure.effect-oscar:hover figcaption::before,
-.member figure.effect-oscar:hover p {
+.innku-section-team-member figure.effect-oscar:hover figcaption::before,
+.innku-section-team-member figure.effect-oscar:hover p {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
 
-.member figure.effect-oscar:hover img {
+.innku-section-team-member figure.effect-oscar:hover img {
   opacity: 0.4;
   -webkit-filter: blur(5px) grayscale(100%);
   filter: blur(5px) grayscale(100%);
-}
-
-.contact{
-  .redes{
-    margin-top: 50px;
-    margin-bottom: 50px;
-
-    a{
-      color: $red;
-      text-decoration: none;
-
-      &:hover{
-        color: lighten($grey-color, 20%);
-      }
-    }
-
-    .divider{
-      color: lighten($red, 20%);
-      margin: 0 10px;
-    }
-  }
 }
