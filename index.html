@@ -4,7 +4,7 @@ title: INNKU
 id: Home
 ---
 
-<div class="container-fluid">
+<!-- div class="container-fluid">
   <div class="row">
 
     <section id="innku-projects" class="welcome-screen">
@@ -130,4 +130,52 @@ id: Home
     </section>
 
   </div>
+</div -->
+
+<div class="container-fluid">
+  <div class="row">
+    <section id="innku-projects" class="welcome-screen">
+      <div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 text-center title">
+        <h1>Nos asociamos con personas extraordinarias para crear y escalar negocios en línea</h1>
+        <div class="divider"></div>
+        <h2>Conoce nuestras empresas</h2>
+        <a href="#reserbus" class="arrow bounce">
+          <img src="img/down-arrow.svg" alt="arrow">
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <ul class="row">
+    {% for projects_hash in site.data.projects %}
+      {% assign projects = projects_hash[1] %}
+      {% for pro in projects.projects %}
+      <li class="innku-index-project innku-index-project-image__background {{ pro.class }}" id="{{ pro.id }}">
+          <div class="innku-index-project-title">
+            <div class="col-md-offset-1 col-md-6">
+              <h2>{{ pro.title }}</h2>
+            </div>
+          </div>
+          <div class="innku-index-project-info">
+            <div class="col-md-offset-1 col-md-10">
+              <img src="{{ pro.logo }}" alt="{{ pro.name }}" />
+              <p>{{ pro.description }}</p>
+              {% if pro.history %}
+                <a href="{{ pro.history }}" class="btn btn-innku" role="button" target="_blank">Conoce la historia</a>
+              {% endif %}
+              <a href="{{ pro.site }}" class="btn btn-innku" role="button" target="_blank">Ir al sitio</a>
+              <br class="visible-xs">
+              {% if pro.appstore %}
+                <a href="{{ pro.appstore }}" class="btn btn-innku" role="button" target="_blank">Descarga la app para iOS</a>
+              {% endif %}
+              <br class="visible-xs">
+              {% if pro.android %}
+                <a href="{{ pro.android }}" class="btn btn-innku" role="button" target="_blank">Descarga la app para Android</a>
+              {% endif %}
+            </div>
+          </div>
+      </li>
+      {% endfor %}
+    {% endfor %}
+  </ul>
 </div>

@@ -1,11 +1,14 @@
 name: Proyectos
-proyect:
+projects:
   - name: Aventones
     title: Compartiendo auto entre miembros de tu organización
     description: |
       Aventones fue una solución B2B para que miembros de una misma organización pudieran compartir el auto. Llegamos a trabajar con más de 100 empresas en 5 países (México, Colombia, Venezuela, Chile, Perú).
       Inició en 2010 y se vendió en enero 2015 a BlaBlaCar.
     logo: img/home/logo-aventones.svg
+    icon: img/icon-aventones.svg
+    id: aventones
+    class: aventones
     history: https://www.entrepreneur.com/article/268188
     site: https://www.blablacar.mx/blog/sobre-nosotros
 
@@ -15,6 +18,9 @@ proyect:
       Briq.mx es la primera plataforma de fondeo colectivo que te permite invertir en proyectos de bienes raíces en México.
       A través de un proceso de selección de proyectos, innovación financiera y tecnología Briq hace accesible la inversión en bienes raíces desde montos muy pequeños.
     logo: img/home/logo-briq.svg
+    icon: img/icon-briq.svg
+    id: briq
+    class: briq
     site: https://www.briq.mx/
 
   - name: Disculpe Doctor
@@ -23,6 +29,9 @@ proyect:
       Disculpe Doctor te da acceso a un chat privado para recibir asesoría médica de doctores de alta calidad cuando la necesites desde cualquier lugar.
       Que tu primer fuente de información para tu salud sea un doctor de calidad.
     logo: img/home/logo-disculpe-doctor.svg
+    icon: img/icon-disculpe-doctor.svg
+    id: disculpe-doctor
+    class: disculpe_dr
     site: http://www.disculpedoctor.com/
     appstore: https://itunes.apple.com/mx/app/disculpe-doctor/id1027534072
     android: https://play.google.com/store/apps/details?id=com.innku.disculpedoctor
@@ -33,6 +42,9 @@ proyect:
       Con un modelo de suscripción mensual, Lunch Break te lleva tu comida a la oficina.
       Comida buena, sin complicaciones y a costos accesibles, desde una plataforma eliges tu menú y LunchBreak se encarga del resto.
     logo: img/home/logo-lunch-break.svg
+    icon: img/icon-lunch-break.svg
+    id: lunchbreak
+    class: lunch-break
     site: http://www.lunchbreak.mx/
 
   - name: Reserbus
@@ -41,6 +53,9 @@ proyect:
       Reserbus te permite encontrar información y comprar boletos de autobús a cientos de destinos en México y Estados Unidos de manera fácil y segura.
       Es la primer plataforma en reunir información de decenas de líneas de autobús y otros medios de transporte en México.
     logo: img/home/logo-reserbus.svg
+    icon: img/icon-reserbus.svg
+    id: reserbus
+    class: reserbus
     site: http://reserbus.mx
     appstore: https://itunes.apple.com/mx/app/reserbus/id884367907
     android: https://play.google.com/store/apps/details?id=com.reserbus.Reserbus
@@ -51,4 +66,7 @@ proyect:
       Rutanet es la primera empresa que conecta a transportistas de carga con empresas que necesitan enviar sus productos a través de una aplicación tecnológica.
       Inició en 2008 y fue uno de los primeros marketplaces especializados en México.
     logo: img/home/logo-rutanet.svg
+    icon: img/icon-rutanet.svg
+    id: rutanet
+    class: rutanet
     site: https://www.rutanet.com/

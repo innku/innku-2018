@@ -11,12 +11,12 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="#reserbus"><img class="innku-icon" src="img/icon-reserbus.svg" /></a></li>
-          <li><a href="#rutanet"><img class="innku-icon" src="img/icon-rutanet.svg" /></a></li>
-          <li><a href="#disculpe-doctor"><img class="innku-icon" src="img/icon-disculpe-doctor.svg" /></a></li>
-          <li><a href="#aventones"><img class="innku-icon" src="img/icon-aventones.svg" /></a></li>
-          <li><a href="#briq"><img class="innku-icon" src="img/icon-briq.svg" /></a></li>
-          <li><a href="#lunch-break"><img class="innku-icon" src="img/icon-lunch-break.svg" /></a></li>
+          {% for projects_hash in site.data.projects %}
+            {% assign projects = projects_hash[1] %}
+            {% for pro in projects.projects %}
+              <li><a href="#{{ pro.id }}"><img class="innku-icon" src="{{ pro.icon }}" /></a></li>
+          {% endfor %}
+        {% endfor %}
         </ul>
       </div><!--/.nav-collapse -->
   </nav>

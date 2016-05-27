@@ -7,7 +7,7 @@ url: "hhttp://innku.github.io/innku-2016" # the base hostname & protocol for you
 twitter_username: innku
 github_username: innku
 
-
+aventones_history: true
 # Build settings
 markdown: kramdown
 
