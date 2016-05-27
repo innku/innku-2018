@@ -131,7 +131,7 @@ body {
   background: url(../img/home/back-rutanet.jpg) no-repeat;
 }
 
-.disculpe_dr {
+.disculpe-doctor {
   background: url(../img/home/back-ddr.jpg) no-repeat;
 }
 
@@ -157,13 +157,13 @@ body {
 }
 
 .innku-index-project-title {
-  height: 65vh;
+  min-height: 40vh;
   @media screen and (max-width: 480px) {
     height: 35vh;
   }
 
-  div {
-    padding-top: 35vh;
+  .innku-index-project-title__padding-top {
+    padding-top: 10vh;
     @media screen and (max-width: 992px) {
       padding-top: 35%;
     }
@@ -196,7 +196,7 @@ body {
 
 .innku-index-project-info {
   background-color: white;
-  height: 35vh;
+  min-height: 60vh;
   @media screen and (max-width: 480px) {
     height: 65vh;
   }
