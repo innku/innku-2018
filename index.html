@@ -33,7 +33,7 @@ id: Home
           <div class="innku-index-project-info">
             <div class="col-md-offset-1 col-md-10">
               <img src="{{ pro.logo }}" alt="{{ pro.name }}" />
-              <p>{{ pro.description }}</p>
+              {{ pro.description }}
               {% if pro.btn-txt-1 %}
                 <a href="{{ pro.btn-url-1 }}" class="btn btn-innku" role="button" target="_blank">{{ pro.btn-txt-1 }}</a>
               {% endif %}
