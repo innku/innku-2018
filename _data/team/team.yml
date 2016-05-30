@@ -7,7 +7,7 @@ team:
 
   - name: Ricardo Arredondo
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula sapien eget odio condimentum.
+      Con más de 10 años de experiencia en programación, es entusiasta de las herramientas que desarrolla. Pasó uno de los procesos de reclutamientos más estrictos en la historia de INNKU, y su capacidad ha confirmado por qué. 
     image: img/team/generico.png
 
   - name: Adrián Cuadros
@@ -37,7 +37,7 @@ team:
 
   - name: Cristina Palacios
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula sapien eget odio condimentum.
+      Cristina inició como co-fundadora de Aventones, pero su capacidad y pasión para arrancar negocios la llevo a seguir haciéndolo ahora desde el lado de INNKU. Una de las mujeres emprendedoras más reconocidas en México. Hizo reír a Barack Obama durante su visita a México como presidente de EEUU, por su directa honestidad.
     image: img/team/cristina.jpg
 
   - name: Benito Serna
@@ -47,5 +47,5 @@ team:
 
   - name: Emmanuel Serna
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula sapien eget odio condimentum.
+      Otro miembro del clan Serna dentro de INNKU. Con una velocidad de aprendizaje impresionante ha sorprendido a todos. Desde sus primeros meses ya ha desarrollado y aportado a varios clave.
     image: img/team/emmanuel.jpg
