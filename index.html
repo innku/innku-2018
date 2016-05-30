@@ -160,17 +160,20 @@ id: Home
             <div class="col-md-offset-1 col-md-10">
               <img src="{{ pro.logo }}" alt="{{ pro.name }}" />
               <p>{{ pro.description }}</p>
-              {% if pro.history %}
-                <a href="{{ pro.history }}" class="btn btn-innku" role="button" target="_blank">Conoce la historia</a>
-              {% endif %}
-              <a href="{{ pro.site }}" class="btn btn-innku" role="button" target="_blank">Ir al sitio</a>
-              <br class="visible-xs">
-              {% if pro.appstore %}
-                <a href="{{ pro.appstore }}" class="btn btn-innku" role="button" target="_blank">Descarga la app para iOS</a>
+              {% if pro.btn-txt-1 %}
+                <a href="{{ pro.btn-url-1 }}" class="btn btn-innku" role="button" target="_blank">{{ pro.btn-txt-1 }}</a>
               {% endif %}
               <br class="visible-xs">
-              {% if pro.android %}
-                <a href="{{ pro.android }}" class="btn btn-innku" role="button" target="_blank">Descarga la app para Android</a>
+              {% if pro.btn-txt-2 %}
+                <a href="{{ pro.btn-url-2 }}" class="btn btn-innku" role="button" target="_blank">{{ pro.btn-txt-2 }}</a>
+              {% endif %}
+              <br class="visible-xs">
+              {% if pro.btn-txt-3 %}
+                <a href="{{ pro.btn-url-3 }}" class="btn btn-innku" role="button" target="_blank">{{ pro.btn-txt-3 }}</a>
+              {% endif %}
+              <br class="visible-xs">
+              {% if pro.btn-txt-4 %}
+                <a href="{{ pro.btn-url-4 }}" class="btn btn-innku" role="button" target="_blank">{{ pro.btn-txt-4 }}</a>
               {% endif %}
             </div>
           </div>

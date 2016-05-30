@@ -9,8 +9,10 @@ projects:
     icon: img/icon-aventones.svg
     id: aventones
     class: aventones
-    history: https://www.entrepreneur.com/article/268188
-    site: https://www.blablacar.mx/blog/sobre-nosotros
+    btn-txt-1: Conoce la historia
+    btn-url-1: https://www.entrepreneur.com/article/268188
+    btn-txt-2: Ir al sitio
+    btn-url-2: https://www.blablacar.mx/blog/sobre-nosotros
 
   - name: Briq
     title: Inversión en bienes raíces al alcance de todos
@@ -21,7 +23,8 @@ projects:
     icon: img/icon-briq.svg
     id: briq
     class: briq
-    site: https://www.briq.mx/
+    btn-txt-1: Ir al sitio
+    btn-url-1: https://www.briq.mx/
 
   - name: Disculpe Doctor
     title: Acceso a doctores de alta calidad 24/7
@@ -32,9 +35,12 @@ projects:
     icon: img/icon-disculpe-doctor.svg
     id: disculpe-doctor
     class: disculpe-doctor
-    site: http://www.disculpedoctor.com/
-    appstore: https://itunes.apple.com/mx/app/disculpe-doctor/id1027534072
-    android: https://play.google.com/store/apps/details?id=com.innku.disculpedoctor
+    btn-txt-1: Ir al sitio
+    btn-url-1: http://www.disculpedoctor.com/
+    btn-txt-2: Descarga la app para iOS
+    btn-url-2: https://itunes.apple.com/mx/app/disculpe-doctor/id1027534072
+    btn-txt-3: Descarga la app para Android
+    btn-url-3: https://play.google.com/store/apps/details?id=com.innku.disculpedoctor
 
   - name: Lunch Break
     title: Come mejor y más saludable en tu trabajo
@@ -45,7 +51,8 @@ projects:
     icon: img/icon-lunch-break.svg
     id: lunchbreak
     class: lunch-break
-    site: http://www.lunchbreak.mx/
+    btn-txt-1: Ir al sitio
+    btn-url-1: http://www.lunchbreak.mx/
 
   - name: Reserbus
     title: Compra boletos de autobús en línea fácil y rápido
@@ -56,9 +63,12 @@ projects:
     icon: img/icon-reserbus.svg
     id: reserbus
     class: reserbus
-    site: http://reserbus.mx
-    appstore: https://itunes.apple.com/mx/app/reserbus/id884367907
-    android: https://play.google.com/store/apps/details?id=com.reserbus.Reserbus
+    btn-txt-1: Ir al sitio
+    btn-url-1: http://reserbus.mx
+    btn-txt-2: Descarga la app para iOS
+    btn-url-2: https://itunes.apple.com/mx/app/reserbus/id884367907
+    btn-txt-3: Descarga la app para Android
+    btn-url-3: https://play.google.com/store/apps/details?id=com.reserbus.Reserbus
 
   - name: Rutanet
     title: El lugar donde las cargas encuentran transportistas confiables.
@@ -69,4 +79,5 @@ projects:
     icon: img/icon-rutanet.svg
     id: rutanet
     class: rutanet
-    site: https://www.rutanet.com/
+    btn-txt-1: Ir al sitio
+    btn-url-1: https://www.rutanet.com/
