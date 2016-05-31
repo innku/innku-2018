@@ -13,7 +13,7 @@ id: Home
         <h1>Nos asociamos con personas extraordinarias para crear y escalar negocios en línea</h1>
         <div class="divider"></div>
         <h2>Conoce nuestras empresas</h2>
-        <a href="#aventones" class="arrow bounce">
+        <a href="#ver-mas" class="arrow bounce">
           <img src="img/down-arrow.svg" alt="arrow">
         </a>
       </div>
@@ -21,9 +21,43 @@ id: Home
   </div>
 
   <ul class="row">
+    {% for projects in site.data.projects %}
+      {% if forloop.first %} <div id="ver-mas"></div> {% endif %}
+      <li class="innku-index-project innku-index-project-image__background {{ projects.class }}" id="{{ projects.id }}">
+          <div class="innku-index-project-title">
+            <div class="col-md-offset-1 col-md-6 innku-index-project-title__padding-top">
+              <h2>{{ projects.title }}</h2>
+            </div>
+          </div>
+          <div class="innku-index-project-info">
+            <div class="col-md-offset-1 col-md-10">
+              <img src="{{ projects.logo }}" alt="{{ projects.name }}" />
+              {{ projects.description }}
+              {% if projects.btn-txt-1 %}
+                <a href="{{ pro.btn-url-1 }}" class="btn btn-innku" role="button" target="_blank">{{ projects.btn-txt-1 }}</a>
+              {% endif %}
+              <br class="visible-xs">
+              {% if projects.btn-txt-2 %}
+                <a href="{{ projects.btn-url-2 }}" class="btn btn-innku" role="button" target="_blank">{{ projects.btn-txt-2 }}</a>
+              {% endif %}
+              <br class="visible-xs">
+              {% if projects.btn-txt-3 %}
+                <a href="{{ projects.btn-url-3 }}" class="btn btn-innku" role="button" target="_blank">{{ projects.btn-txt-3 }}</a>
+              {% endif %}
+              <br class="visible-xs">
+              {% if projects.btn-txt-4 %}
+                <a href="{{ projects.btn-url-4 }}" class="btn btn-innku" role="button" target="_blank">{{ projects.btn-txt-4 }}</a>
+              {% endif %}
+            </div>
+          </div>
+      </li>
+    {% endfor %}
+  </ul>
+  <!-- ul class="row">
     {% for projects_hash in site.data.projects %}
       {% assign projects = projects_hash[1] %}
       {% for pro in projects.projects %}
+      {% if forloop.first %} <div id="ver-mas"></div> {% endif %}
       <li class="innku-index-project innku-index-project-image__background {{ pro.class }}" id="{{ pro.id }}">
           <div class="innku-index-project-title">
             <div class="col-md-offset-1 col-md-6 innku-index-project-title__padding-top">
@@ -54,5 +88,5 @@ id: Home
       </li>
       {% endfor %}
     {% endfor %}
-  </ul>
+  </ul -->
 </div>

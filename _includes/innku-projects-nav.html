@@ -11,12 +11,9 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav nav-pills nav-stacked">
-          {% for projects_hash in site.data.projects %}
-            {% assign projects = projects_hash[1] %}
-            {% for pro in projects.projects %}
-              <li><a href="#{{ pro.id }}"><img class="innku-icon" src="{{ pro.icon }}" /></a></li>
+          {% for projects in site.data.projects %}
+            <li><a href="#{{ projects.id }}"><img class="innku-icon" src="{{ projects.icon }}" /></a></li>
           {% endfor %}
-        {% endfor %}
         </ul>
       </div><!--/.nav-collapse -->
   </nav>

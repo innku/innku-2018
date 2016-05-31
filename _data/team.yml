@@ -1,0 +1,49 @@
+- name: Gabo Arce
+  description: |
+    Con soluciones prácticas y efectivas deja claro que lo suyo es el diseño de interface. Disfruta de un buen café por la mañana, la música y los videojuegos. Nos han contado que guarda un par de buenas recetas debajo de la manga.
+  image: img/team/gabo.jpg
+
+- name: Ricardo Arredondo
+  description: |
+    Con más de 10 años de experiencia en programación, es entusiasta de las herramientas que desarrolla. Pasó uno de los procesos de reclutamientos más estrictos en la historia de INNKU, y su capacidad ha confirmado por qué.
+  image: img/team/ricardo.jpg
+
+- name: Adrián Cuadros
+  description: |
+    De Cochabamba, Bolivia. Apasionado al fútbol y promotor activo de técnicas de productividad. Desarrolla en RoR e imparte talleres. Encargado de Rutanet y líder de proyecto en varios desarrollos a la medida.
+  image: img/team/adrian.jpg
+
+- name: Sarait Fernández
+  description: |
+    Es la voz de orden en INNKU fue aquí donde descubrió el gusto por la Administración, y a partir del 2010 INNKU y Rutanet le dieron la oportunidad de trabajar en esta área, le gusta ser productiva y disfrutar lo que hace aportando y creciendo como pieza clave de la empresa ya que su estilo de vida es el compromiso y responsabilidad.
+  image: img/team/sarait.jpg
+
+- name: Jorge Gajón
+  description: |
+    Originario de la comarca lagunera, políglota en programación y ahora dedicado a Ruby. Linuxero de corazón que para su sorpresa fue convertido a Mac. Podrá hacer muchos cambios pero asegura que jamás abandonará su amado Vim.
+  image: img/team/george.jpg
+
+- name: David Hernández
+  description: |
+    Mejor conocido como "Furia". Amante del café y rap latinoamericano, siempre pasas un buen rato con él. Perfeccionista en el más mínimo detalle de diseño, propositivo por naturaleza y siempre con buenas recomendaciones de lugares para comer.
+  image: img/team/furia.jpg
+
+- name: Alberto Padilla
+  description: |
+    Es Ing. industrial con alma de desarrollador. Apasionado en temas de Venture Capital, innovación y nuevos proyectos. Se dedica a vender y comunicar, le encanta involucrarse en idear los proyectos y aplicaciones.
+  image: img/team/beto.jpg
+
+- name: Cristina Palacios
+  description: |
+    Cristina inició como co-fundadora de Aventones, pero su capacidad y pasión para arrancar negocios la llevo a seguir haciéndolo ahora desde el lado de INNKU. Una de las mujeres emprendedoras más reconocidas en México. Hizo reír a Barack Obama durante su visita a México como presidente de EEUU, por su directa honestidad.
+  image: img/team/cristina.jpg
+
+- name: Benito Serna
+  description: |
+    Egresado de la UDEM de Mecatrónica, un gran músico y sobretodo, una excelente persona. Se destaca por su capacidad de realizar cualquier actividad muy bien. Te puede sorprender con su conocimiento en Rails, Coffeescript y hasta te puede dar un baile en diseño de productos.
+  image: img/team/benito.jpg
+
+- name: Emmanuel Serna
+  description: |
+    Otro miembro del clan Serna dentro de INNKU. Con una velocidad de aprendizaje impresionante ha sorprendido a todos. Desde sus primeros meses ya ha desarrollado y aportado a varios clave.
+  image: img/team/emmanuel.jpg

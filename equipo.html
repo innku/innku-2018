@@ -20,19 +20,16 @@ keywords:
 
 <section class="innku-section-team">
   <ul class="row">
-    {% for team_hash in site.data.team %}
-      {% assign team = team_hash[1] %}
-      {% for t in team.team %}
-        <li class="col-lg-4 col-sm-4 col-xs-12 text-center innku-section-team-member">
-          <figure class="effect-oscar">
-            <img src="{{ t.image }}">
-            <figcaption>
-              <h2>{{ t.name }}</h2>
-              <p>{{ t.description}}</p>
-            </figcaption>
-          </figure>
-        </li>
-      {% endfor %}
+    {% for team in site.data.team %}
+      <li class="col-lg-4 col-sm-4 col-xs-12 text-center innku-section-team-member">
+        <figure class="effect-oscar">
+          <img src="{{ team.image }}">
+          <figcaption>
+            <h2>{{ team.name }}</h2>
+            <p>{{ team.description}}</p>
+          </figcaption>
+        </figure>
+      </li>
     {% endfor %}
   </ul>
 </section>
