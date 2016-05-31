@@ -53,40 +53,4 @@ id: Home
       </li>
     {% endfor %}
   </ul>
-  <!-- ul class="row">
-    {% for projects_hash in site.data.projects %}
-      {% assign projects = projects_hash[1] %}
-      {% for pro in projects.projects %}
-      {% if forloop.first %} <div id="ver-mas"></div> {% endif %}
-      <li class="innku-index-project innku-index-project-image__background {{ pro.class }}" id="{{ pro.id }}">
-          <div class="innku-index-project-title">
-            <div class="col-md-offset-1 col-md-6 innku-index-project-title__padding-top">
-              <h2>{{ pro.title }}</h2>
-            </div>
-          </div>
-          <div class="innku-index-project-info">
-            <div class="col-md-offset-1 col-md-10">
-              <img src="{{ pro.logo }}" alt="{{ pro.name }}" />
-              {{ pro.description }}
-              {% if pro.btn-txt-1 %}
-                <a href="{{ pro.btn-url-1 }}" class="btn btn-innku" role="button" target="_blank">{{ pro.btn-txt-1 }}</a>
-              {% endif %}
-              <br class="visible-xs">
-              {% if pro.btn-txt-2 %}
-                <a href="{{ pro.btn-url-2 }}" class="btn btn-innku" role="button" target="_blank">{{ pro.btn-txt-2 }}</a>
-              {% endif %}
-              <br class="visible-xs">
-              {% if pro.btn-txt-3 %}
-                <a href="{{ pro.btn-url-3 }}" class="btn btn-innku" role="button" target="_blank">{{ pro.btn-txt-3 }}</a>
-              {% endif %}
-              <br class="visible-xs">
-              {% if pro.btn-txt-4 %}
-                <a href="{{ pro.btn-url-4 }}" class="btn btn-innku" role="button" target="_blank">{{ pro.btn-txt-4 }}</a>
-              {% endif %}
-            </div>
-          </div>
-      </li>
-      {% endfor %}
-    {% endfor %}
-  </ul -->
 </div>

@@ -386,51 +386,6 @@ body {
   position: relative;
   width: 60px;
 }
-/*
-.innku-footer-icon-block__extra-padding {
-  display: block;
-  float: left;
-  margin-right: 5px;
-  padding-bottom: 70px;
-  width: 32px;
-
-  img {
-    width: 32px;
-    margin-right: 5px;
-  }
-}
-.innku-footer-block__mobile-height {
-  @media screen and (max-width: 992px) {
-    height: 32vh;
-  }
-
-  @media screen and (max-width: 768px) {
-    height: 14vh;
-  }
-
-  @media screen and (max-width: 750px) {
-    height: 24vh;
-  }
-
-  @media screen and (max-width: 480px) {
-    height: 14vh;
-  }
-}
-
-.innku-footer-block__mobile-margin {
-  @media screen and (max-width: 992px) {
-    margin-left: 37px;
-  }
-
-  @media screen and (max-width: 768px) {
-    margin-left: 37px;
-  }
-
-  @media screen and (max-width: 750px) {
-    margin-left: 37px;
-  }
-}
-*/
 
 //Equipo
 .innku-section-team {
@@ -482,8 +437,6 @@ body {
   max-width: 100%;
   opacity: 0.8;
   position: relative;
-  //-webkit-filter: grayscale(100%);
-  //filter: grayscale(100%);
 }
 
 .innku-section-team-member figure figcaption::before,
