@@ -404,18 +404,18 @@ body {
   background: #000000;
   cursor: pointer;
   float: left;
-  height: 273px;
+  //height: 273px;
   overflow: hidden;
   position: relative;
   margin: 0%;
   text-align: center;
 
   @media screen and (max-width: 1210px) {
-    height: 230px;
+    //height: 230px;
   }
 
   @media screen and (max-width: 770px) {
-    height: 273px;
+    //height: 273px;
     margin-bottom: 30px;
     margin-left: 25%;
   }
@@ -426,15 +426,17 @@ body {
 
   @media screen and (max-width: 400px) {
     margin-left: 0%;
-    height: 230px;
+    //height: 230px;
   }
 
 }
 
 .innku-section-team-member figure img {
   display: block;
-  min-height: 100%;
-  max-width: 100%;
+  //min-height: 100%;
+  //max-width: 100%;
+  background-size: cover;
+  background-position: center;
   opacity: 0.8;
   position: relative;
 }
@@ -504,9 +506,17 @@ body {
   -webkit-transform: translate3d(0,450%,0);
   transform: translate3d(0,450%,0);
 
-  @media screen and (max-width: 400px) {
-    margin: 7% 0 10px 0;
+  @media screen and (max-width: 991px) {
+    margin: 80px 0 10px 0;
+    -webkit-transition: none;
+    transition: none;
+    -webkit-transform: none;
+    transform: none;
   }
+}
+
+innku-section-team-member figure.effect-oscar h2:hover {
+  margin: 2% 0 10px 0;
 }
 
 .innku-section-team-member figure.effect-oscar figcaption::before,
@@ -534,4 +544,8 @@ body {
   opacity: 0.4;
   -webkit-filter: blur(5px) grayscale(100%);
   filter: blur(5px) grayscale(100%);
+}
+
+.innku-section-testimony {
+  margin-bottom: 20px;
 }
