@@ -1,24 +1,20 @@
-- name: Aventones
-  title: Compartiendo auto entre miembros de tu organización
+- name: Lunch Break
+  title: Come mejor y más saludable en tu trabajo
   description: |
-    <p>Aventones fue una solución B2B para que miembros de una misma organización pudieran compartir el auto. Llegamos a trabajar con más de 100 empresas en 5 países (México, Colombia, Venezuela, Chile, Perú).
-    Inició en 2010 y se vendió en enero 2015 a BlaBlaCar.</p>
-    <p>Aventones fue una solución B2B para que miembros de una misma organización pudieran compartir el auto. Llegamos a trabajar con más de 100 empresas en 5 países (México, Colombia, Venezuela, Chile, Perú).
-    Inició en 2010 y se vendió en enero 2015 a BlaBlaCar.</p>
-  logo: img/home/logo-aventones.svg
-  icon: img/icon-aventones.svg
-  id: aventones
-  class: aventones
-  btn-txt-1: Conoce la historia
-  btn-url-1: https://www.entrepreneur.com/article/268188
-  btn-txt-2: Ir al sitio
-  btn-url-2: https://www.blablacar.mx/blog/sobre-nosotros
+    <p>Con un modelo de suscripción mensual, Lunch Break te lleva tu comida a la oficina. Comida buena, sin complicaciones y a costos accesibles, desde una plataforma tecnológica eliges tu menú y Lunch Break se encarga del resto.</p>
+    <p>Cualquier persona puede suscribirse al servicio, también trabajamos directamente con empresas que buscan otorgar esta beneficiosa prestación a sus empleados. Actualmente hemos establecido convenios con empresas trasnacionales que buscan asegurar una alimentación adecuada para sus colaboradores.</p>
+  logo: img/home/logo-lunch-break.svg
+  icon: img/icon-lunch-break.svg
+  id: lunchbreak
+  class: lunch-break
+  btn-txt-1: Ir al sitio
+  btn-url-1: http://www.lunchbreak.mx/
 
 - name: Briq
   title: Inversión en bienes raíces al alcance de todos
   description: |
-    <p>Briq.mx es la primera plataforma de fondeo colectivo que te permite invertir en proyectos de bienes raíces en México.
-    A través de un proceso de selección de proyectos, innovación financiera y tecnología Briq hace accesible la inversión en bienes raíces desde montos muy pequeños.</p>
+    <p>Briq.mx es la primera plataforma de fondeo colectivo que te permite invertir en proyectos de bienes raíces en México. A través de un proceso de selección de proyectos, innovación financiera y tecnología, con Briq hacemos accesible la inversión en bienes raíces desde montos muy pequeños.</p>
+    <p>En su primer año de operación ayudó a desarrolladores a hacer realidad 5 proyectos, fondeando 11.5 millones de pesos y logrando así una de las campañas más grandes de crowdfunding en México.</p>
   logo: img/home/logo-briq.svg
   icon: img/icon-briq.svg
   id: briq
@@ -29,8 +25,8 @@
 - name: Disculpe Doctor
   title: Acceso a doctores de alta calidad 24/7
   description: |
-    <p>Disculpe Doctor te da acceso a un chat privado para recibir asesoría médica de doctores de alta calidad cuando la necesites desde cualquier lugar.
-    Que tu primer fuente de información para tu salud sea un doctor de calidad.</p>
+    <p>Disculpe Doctor te da acceso a un chat privado para recibir asesoría médica con doctores certificados y de alta calidad, en el momento que la necesites y desde cualquier lugar.</p>
+    <p>Queremos eliminar las dificultades y barreras para acceder a atención médica de alta calidad, al mismo tiempo que buscamos fomentar la prevención y detección temprana de padecimientos, reduciendo o eliminando los gastos excesivos que la población hace en servicios de salud.</p>
   logo: img/home/logo-disculpe-doctor.svg
   icon: img/icon-disculpe-doctor.svg
   id: disculpe-doctor
@@ -42,23 +38,11 @@
   btn-txt-3: Descarga la app para Android
   btn-url-3: https://play.google.com/store/apps/details?id=com.innku.disculpedoctor
 
-- name: Lunch Break
-  title: Come mejor y más saludable en tu trabajo
-  description: |
-    <p>Con un modelo de suscripción mensual, Lunch Break te lleva tu comida a la oficina.
-    Comida buena, sin complicaciones y a costos accesibles, desde una plataforma eliges tu menú y LunchBreak se encarga del resto.</p>
-  logo: img/home/logo-lunch-break.svg
-  icon: img/icon-lunch-break.svg
-  id: lunchbreak
-  class: lunch-break
-  btn-txt-1: Ir al sitio
-  btn-url-1: http://www.lunchbreak.mx/
-
 - name: Reserbus
   title: Compra boletos de autobús en línea fácil y rápido
   description: |
-    <p>Reserbus te permite encontrar información y comprar boletos de autobús a cientos de destinos en México y Estados Unidos de manera fácil y segura.
-    Es la primer plataforma en reunir información de decenas de líneas de autobús y otros medios de transporte en México.</p>
+    <p>Reserbus reúne información de decenas de líneas de autobús y otros medios de transporte en México. Te permite encontrar y comparar información (horarios, precios) y comprar boletos de autobús a más de 450 destinos en México y Estados Unidos de manera fácil y segura.</p>
+    <p>Con Reserbus, entramos a participar en el mercado de transporte entre ciudades más usado en México, el cuál representa más de 550 millones de viajes cada año.</p>
   logo: img/home/logo-reserbus.svg
   icon: img/icon-reserbus.svg
   id: reserbus
@@ -70,11 +54,26 @@
   btn-txt-3: Descarga la app para Android
   btn-url-3: https://play.google.com/store/apps/details?id=com.reserbus.Reserbus
 
+- name: Aventones
+  title: Compartiendo auto entre miembros de tu organización
+  description: |
+    <p>Aventones fue una solución B2B para que miembros de una misma organización pudieran compartir el auto que lanzamos en 2010. Llegamos a trabajar con más de 100 empresas en 5 países (México, Colombia, Venezuela, Chile, Perú).</p>
+    <p>En 2013, lanzamos Rides, una plataforma que conectaba a personas para hacer viajes de larga distancia. Estuvo disponible en México y Chile. Logramos que miles de viajes se concretaran y trabajamos con cientos de eventos para facilitar los traslados.</p>
+    <p>Aventones y Rides se vendieron en enero 2015 a BlaBlaCar.</p>
+  logo: img/home/logo-aventones.svg
+  icon: img/icon-aventones.svg
+  id: aventones
+  class: aventones
+  btn-txt-1: Conoce la historia
+  btn-url-1: https://www.entrepreneur.com/article/268188
+  btn-txt-2: Conoce BlaBlaCar
+  btn-url-2: https://www.blablacar.mx/blog/sobre-nosotros
+
 - name: Rutanet
   title: El lugar donde las cargas encuentran transportistas confiables.
   description: |
-    <p>Rutanet es la primera empresa que conecta a transportistas de carga con empresas que necesitan enviar sus productos a través de una aplicación tecnológica.
-    Inició en 2008 y fue uno de los primeros marketplaces especializados en México.</p>
+    <p>Rutanet es la primera plataforma que conecta a transportistas de carga certificados con empresas que necesitan enviar sus productos a través de una aplicación tecnológica. Ayudamos a los transportistas a no regresar sin cargas, eficientando sus viajes y por lo tanto incrementando su ingreso y disminuyendo las emisiones de CO<sub>2</sub>.</p>
+    <p>Rutanet, se creó en 2008 y fue uno de los primeros marketplaces especializados en Latinoamérica.</p>
   logo: img/home/logo-rutanet.svg
   icon: img/icon-rutanet.svg
   id: rutanet
