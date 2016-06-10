@@ -30,7 +30,7 @@ $on-laptop:        800px;
 
 //innku colors
 $light-grey: #c6c5c3;
-$almost-white: #fdfdfd;
+$almost-white: #FCFCFC;
 $dark-grey: #4d4d4d;
 $red: #ea6570;
 $grey: #797874;
@@ -51,6 +51,7 @@ $grey: #797874;
 body {
   font-family: 'Lato', sans-serif;
   position: relative;
+  background-color: $almost-white ;
 }
 
 .navbar-aling {
@@ -78,7 +79,7 @@ body {
     top: 35%;
 
     h1, h2 {
-      color: white;
+      color: $almost-white;
       text-align: center;
       text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 
@@ -151,6 +152,10 @@ body {
   background: url(../img/home/back-lunch-break.jpg) no-repeat;
 }
 
+.innku-index-project-list {
+  list-style: none;
+}
+
 .innku-index-project {
   height: 100vh;
   width: 100vw;
@@ -163,7 +168,7 @@ body {
   }
 
   .innku-index-project-title__padding-top {
-    padding-top: 10vh;
+    padding-top: 15vh;
     @media screen and (max-width: 992px) {
       padding-top: 35%;
     }
@@ -172,7 +177,7 @@ body {
     }
 
     h2 {
-      color: white;
+      color: $almost-white;
       font-size: 40px;
       line-height: 50px;
       text-transform: normal;
@@ -195,7 +200,7 @@ body {
 }
 
 .innku-index-project-info {
-  background-color: white;
+  background-color: $almost-white;
   min-height: 60vh;
   @media screen and (max-width: 480px) {
     height: 65vh;
@@ -225,7 +230,7 @@ body {
     }
 
     a {
-      color: white;
+      color: $almost-white;
       margin-right: 20px;
 
       @media screen and (max-width: 480px) {
@@ -339,6 +344,29 @@ body {
   }
 }
 
+.innku-footer-index {
+  margin: 0 0 10rem 0;
+  h3 {
+    color: $dark-grey;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  p {
+    color: $dark-grey;
+  }
+
+  a {
+    color: $dark-grey;
+    text-decoration: none;
+  }
+
+  a:hover, a:active {
+    color: $dark-grey;
+    text-decoration: underline;
+  }
+}
+
 .innku-footer-icon-block {
   img {
     width: 32px;
@@ -367,7 +395,7 @@ body {
   }
   .front-color {
     fill: none;
-    stroke: white;
+    stroke: $almost-white;
     stroke-width: 4;
     stroke-linejoin:round;
     stroke-miterlimit:10;
@@ -429,6 +457,10 @@ body {
     //height: 230px;
   }
 
+}
+
+.innku-seccion a {
+  color: $red;
 }
 
 .innku-section-team-member figure img {
@@ -569,4 +601,10 @@ innku-section-team-member figure.effect-oscar h2:hover {
   font-style: normal;
   letter-spacing: 0;
   margin-bottom: 40px;
+}
+
+.innku-section-testimony__font-styles p {
+  color: lighten($text-color, 40%);
+  font-style: italic;
+  font-weight: 300;
 }

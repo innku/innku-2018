@@ -19,8 +19,14 @@ keywords:
 </div>
 
 <section class="row">
-  <div class="col-md-offset-2 col-md-8">
+  <div class="col-md-offset-2 col-md-8 ">
     <p>{{ site.data.about.description }}</p>
+    <p><a href="/">Conoce más de nuestra historia</a></p>
+  </div>
+  <div class="col-md-offset-2 col-md-8 ">
+    <p class="text-center">Nos guiamos en 4 valores pilares:
+    <p class="text-center"><strong>Aprendizaje, Gozo, Comunicación e Innovación.</strong></p>
+    <p><a href="/">Conoce más de nuestros valores</a></p>
   </div>
 </section>
 <section class="row innku-section-testimony">
@@ -33,7 +39,9 @@ keywords:
           <li >
             <img class="col-sm-2 img-circle" src="{{ testimony.img }}" />
             <blockquote class="col-sm-10">
-              {{ testimony.text}}
+              <div class="innku-section-testimony__font-styles">
+                {{ testimony.text}}
+              </div>
               <p><strong>{{ testimony.name }}</strong><br />
               {{ testimony.position }}</p>
             </blockquote>

@@ -20,11 +20,11 @@ id: Home
     </section>
   </div>
 
-  <ul class="row">
+  <ul class="row innku-index-project-list">
     {% for projects in site.data.projects %}
       {% if forloop.first %} <div id="ver-mas"></div> {% endif %}
-      <li class="innku-index-project innku-index-project-image__background {{ projects.class }}" id="{{ projects.id }}">
-          <div class="innku-index-project-title">
+      <li class="innku-index-project" id="{{ projects.id }}">
+          <div class="innku-index-project-title {{ projects.class }} innku-index-project-image__background">
             <div class="col-md-offset-1 col-md-6 innku-index-project-title__padding-top">
               <h2>{{ projects.title }}</h2>
             </div>
