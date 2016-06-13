@@ -620,6 +620,13 @@ innku-section-team-member figure.effect-oscar h2:hover {
   margin-bottom: 60px;
 }
 
+.innku-section-testimony img {
+  @media screen and (max-width: 750px) {
+    width: 70%;
+    margin: 0 15% 30px 15%;
+  }
+}
+
 .innku-section-testimony__font-styles p {
   color: lighten($text-color, 40%);
   font-style: italic;
