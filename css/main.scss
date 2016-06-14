@@ -467,6 +467,10 @@ body {
   list-style: none;
 }
 
+.innku-section-content strong {
+  color: $red;
+}
+
 .innku-section-team-member figure img {
   display: block;
   //min-height: 100%;
@@ -642,6 +646,15 @@ innku-section-team-member figure.effect-oscar h2:hover {
   font-weight: 300;
 }
 
-.innku-section-contact-img__margin {
+.innku-section-content-element__color a {
+  color: $text-color;
+  text-decoration: underline;
+}
+
+.innku-section-contact__margin {
+  margin-bottom: 20px;
+}
+
+.innku-section-contact__margin img {
   margin-top: 5px;
 }
