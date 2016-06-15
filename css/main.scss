@@ -79,7 +79,7 @@ body {
     top: 35%;
 
     @media screen and (max-width: 480px) {
-      top: 30%;
+      top: 28%;
     }
 
     h1, h2 {
@@ -96,12 +96,12 @@ body {
       font-size: 40px;
 
       @media screen and (max-width: 480px) {
-        font-size: 28px;
+        font-size: 25px;
       }
     }
 
     h2 {
-      font-size: 28px;
+      font-size: 22px;
 
       @media screen and (max-width: 480px) {
         font-size: 22px;
@@ -500,6 +500,14 @@ body {
   color: $red;
 }
 
+.innku-seccion ul {
+  list-style: none;
+}
+
+.innku-section-content strong {
+  color: $red;
+}
+
 .innku-section-team-member figure img {
   display: block;
   //min-height: 100%;
@@ -648,12 +656,17 @@ innku-section-team-member figure.effect-oscar h2:hover {
 .innku-section-content {
   margin-bottom: 40px;
 }
+
 .innku-section-content a {
   color: $red;
 }
 
 a.mute{
   color: #777777;
+}
+
+.innku-section-block__margin {
+  margin-bottom: 40px;
 }
 
 .innku-content-divisor {
@@ -702,4 +715,17 @@ a.mute{
   color: lighten($text-color, 40%);
   font-style: italic;
   font-weight: 300;
+}
+
+.innku-section-content-element__color a {
+  color: $text-color;
+  text-decoration: underline;
+}
+
+.innku-section-contact__margin {
+  margin-bottom: 20px;
+}
+
+.innku-section-contact__margin img {
+  margin-top: 5px;
 }
