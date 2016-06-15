@@ -184,7 +184,8 @@ body {
 .innku-index-project-title {
   min-height: 40vh;
   @media screen and (max-width: 480px) {
-    height: 35vh;
+    /*height: 25vh;*/
+    min-height: 25vh;
   }
 
   .innku-index-project-title__padding-top {
@@ -728,4 +729,8 @@ a.mute{
 
 .innku-section-contact__margin img {
   margin-top: 5px;
+}
+
+.contact-title{
+  margin-bottom: 8px;
 }
