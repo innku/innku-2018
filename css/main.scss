@@ -295,6 +295,10 @@ body {
 
 }
 
+.innku-section-title_acerca{
+  margin-bottom: 3em;
+}
+
 .innku-title-divisor {
   border-top: 5px solid $red;
   margin-top: 7rem;
@@ -654,6 +658,8 @@ innku-section-team-member figure.effect-oscar h2:hover {
   transform: scale(1.2);
 }
 
+
+
 .innku-section-content {
   margin-bottom: 40px;
 }
@@ -729,6 +735,7 @@ a.mute{
 
 .innku-section-contact__margin img {
   margin-top: 5px;
+  width: 80%;
 }
 
 .contact-title{
