@@ -179,6 +179,9 @@ body {
 .innku-index-project {
   height: 100vh;
   width: 100vw;
+  @media screen and (max-width: 767px) {
+    height: auto;
+  }
 }
 
 .innku-index-project-title {
@@ -224,8 +227,9 @@ body {
 .innku-index-project-info {
   background-color: $almost-white;
   min-height: 60vh;
-  @media screen and (max-width: 480px) {
-    height: 65vh;
+  @media screen and (max-width: 767px) {
+    height: auto;
+    margin-bottom: 30px;
   }
 
   div {
@@ -451,10 +455,6 @@ body {
   ul{
     list-style: none;
     /*col-md-push-4 col-lg-push-4*/
-  }
-
-  li:last-child {
-    left: 33.33333%;
   }
 
   @media screen and (max-width: 770px) {
