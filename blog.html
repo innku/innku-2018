@@ -1,10 +1,12 @@
 ---
-layout: section
+layout: blog
 title: Blog | INNKU
-permalink: /blog.html
+description:
+keywords:
 ---
 
 <div class="container blog">
+  <section>Nuevo menú</section>
   <section>
 
     <div class="row">
@@ -14,7 +16,7 @@ permalink: /blog.html
            <li>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             <br>
-            <span class="date_blog">{{ post.date | date: "%d %B %Y" }}</span>
+            <span class="date_blog">{{ post.date | date: "%d %B %Y" }}</span><span class="post_author"> | Por: {{ post.post_author }}</span>
             <p>{{ post.excerpt }}</p>
 
             {% assign foundImage = 0 %}
