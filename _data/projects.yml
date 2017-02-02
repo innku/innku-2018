@@ -38,21 +38,21 @@
   btn-txt-3: Descarga la app para Android
   btn-url-3: https://play.google.com/store/apps/details?id=com.innku.disculpedoctor
 
-- name: Reserbus
-  title: Compra boletos de autobús en línea fácil y rápido
+- name: Reservamos
+  title: Las mejores opciones para tu viaje
   description: |
-    <p>Reserbus reúne información de decenas de líneas de autobús y otros medios de transporte en México. Te permite encontrar y comparar información (horarios, precios) y comprar boletos de autobús a más de 450 destinos en México y Estados Unidos de manera fácil y segura.</p>
-    <p>Con Reserbus, entramos a participar en el mercado de transporte entre ciudades más usado en México, el cuál representa más de 550 millones de viajes cada año.</p>
-  logo: img/home/logo-reserbus.svg
-  icon: img/icon-reserbus.svg
+    <p>Reservamos es el primer comparador de medios de transporte de América Latina, donde en una sola búsqueda puedes encontrar resultados de autobús, avión, rides, además de precios, horarios, información de terminales, servicios, ratings y comentarios de otros viajeros.</p>
+    <p>Reservamos mueve a miles de viajeros por 90,000 rutas a 3,700 destinos.</p>
+  logo: img/home/logo-reservamos.svg
+  icon: img/icon-reservamos.svg
   id: reserbus
   class: reserbus
   btn-txt-1: Ir al sitio
-  btn-url-1: http://reserbus.mx
-  btn-txt-2: Descarga la app para iOS
-  btn-url-2: https://itunes.apple.com/mx/app/reserbus/id884367907
-  btn-txt-3: Descarga la app para Android
-  btn-url-3: https://play.google.com/store/apps/details?id=com.reserbus.Reserbus
+  btn-url-1: http://reservamos.mx
+  # btn-txt-2: Descarga la app para iOS
+  # btn-url-2: https://itunes.apple.com/mx/app/reserbus/id884367907
+  # btn-txt-3: Descarga la app para Android
+  # btn-url-3: https://play.google.com/store/apps/details?id=com.reserbus.Reserbus
 
 - name: Aventones
   title: Compartiendo auto entre miembros de tu organización
