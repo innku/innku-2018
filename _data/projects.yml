@@ -1,8 +1,8 @@
 - name: Jetty
   title: Viaja cómodo y seguro a tu trabajo
   description: |
-    <p>Falta texto.</p>
-    <p>Falta texto.</p>
+    <p>Jetty busca resolver las preocupaciones de ir incomodo y de la inseguridad en el transporte público, la perdida de tiempo al volante, el costante aumento de las tarifas y la falta de personal capaz de conducir de manera profesional.</p>
+    <p>Con tan sólo indicar el origen y el destino, escoger una ruta, un horario, reservar el lugar y pagar, cualquier persona podrá disfrutar de un buen viaje de ida o regreso del trabajo.</p>
   logo: img/home/logo-jetty.svg
   icon: img/home/icon-jetty.svg
   id: jetty
