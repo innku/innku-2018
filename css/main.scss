@@ -82,6 +82,19 @@ body {
       top: 28%;
     }
 
+    //iPhone 5 & 5S
+    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+      top: 21%;
+    }
+    //iPhone 6
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+      top: 27%;
+    }
+    //iPhone 6 Plus
+    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) {
+      top: 30%;
+    }
+
     h1, h2 {
       color: $almost-white;
       text-align: center;
@@ -196,6 +209,19 @@ body {
       padding-top: 20%;
     }
 
+    //iPhone 5 & 5S
+    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+      padding-top: 27px;
+    }
+    //iPhone 6
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+      padding-top: 40px;
+    }
+    //iPhone 6 Plus
+    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) {
+      padding-top: 47px;
+    }
+
     h2 {
       color: $almost-white;
       font-size: 40px;
@@ -266,6 +292,20 @@ body {
       -moz-transition: all 0.3s;
       -webkit-transition: all 0.3s;
       transition: all 0.3s;
+
+      //iPhone 5 & 5S
+      @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+        margin-bottom: 7px;
+      }
+      //iPhone 6
+      @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+        margin-bottom: 7px;
+      }
+      //iPhone 6 Plus
+      @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) {
+        margin-bottom: 7px;
+      }
+
     }
 
     .btn-innku:hover, .btn-innku:active {
