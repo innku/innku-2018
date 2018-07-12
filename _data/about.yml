@@ -4,22 +4,26 @@ description: |
 
 testimony-title: Lo que opinan algunos de nuestros socios
 testimony:
-  - text: <p>Innku ha sido más que un socio tecnológico para mí. Hoy en día cualquiera te desarrolla una plataforma o aplicación, pero no me he topado con otra empresa que realmente considere el negocio que se busca detonar a partir de esa tecnología. Muchas empresas han fracasado precisamente por que su tecnología fue creada con total desconexión del negocio al que buscan servir; pero ese riesgo jamás lo tuve que enfrentar con Innku.</p>
-    name: Miguel H. Villarreal Ortiz
+  - name: Miguel H. Villarreal Ortiz
     position: Co-Founder y CEO de LunchBreak.mx
     img: img/about/lunch-break.jpg
+    text: |
+      <p>Innku ha sido más que un socio tecnológico para mí. Hoy en día cualquiera te desarrolla una plataforma o aplicación, pero no me he topado con otra empresa que realmente considere el negocio que se busca detonar a partir de esa tecnología. Muchas empresas han fracasado precisamente por que su tecnología fue creada con total desconexión del negocio al que buscan servir; pero ese riesgo jamás lo tuve que enfrentar con Innku.</p>
 
-  - text: <p>Briq.mx encontró en INNKU más que un aliado tecnológico, un socio estratégico de largo plazo. INNKU aporta altas capacidades técnicas así como una muy amplia visión de negocios tecnológicos. Y muy importante, la gran calidad humana de sus socios.</p>
-    name: Fernando Ramos Amtmann
+  - name: Fernando Ramos Amtmann
     position: Co-Founder de Briq.mx
     img: img/about/briq.jpg
+    text: |
+      <p>Briq.mx encontró en INNKU más que un aliado tecnológico, un socio estratégico de largo plazo. INNKU aporta altas capacidades técnicas así como una muy amplia visión de negocios tecnológicos. Y muy importante, la gran calidad humana de sus socios.</p>
 
-  - text: <p>Mi primer experiencia como emprendedor fue Aventones. Creo que el haberlo hecho con INNKU hizo toda la diferencia, porque no solo fue la colaboración en desarrollo de software, sino que fue mucho más allá. Aprendí mucho de lo que significa crear una empresa al trabajar con ellos, y me dieron herramientas que fueron claves para tener éxito. Es una suerte y un honor tenerlos como socios.</p>
-    name: Ignacio Cordero Desentis
+  - name: Ignacio Cordero Desentis
     position: Co-Founder y CFO de Aventones.com
     img: img/about/aventones.jpg
+    text: |
+      <p>Mi primer experiencia como emprendedor fue Aventones. Creo que el haberlo hecho con INNKU hizo toda la diferencia, porque no solo fue la colaboración en desarrollo de software, sino que fue mucho más allá. Aprendí mucho de lo que significa crear una empresa al trabajar con ellos, y me dieron herramientas que fueron claves para tener éxito. Es una suerte y un honor tenerlos como socios.</p>
 
-  - text: <p>INNKU nos ha dado el seguimiento necesario para tomar las mejores decisiones en DisculpeDoctor. La experiencia de sus fundadores (Adrian, Beto y Cris) es invaluable como emprendedor tecnológico y te da la confianza de tener un equipo que realmente puede lograr un cambio en México pues ellos ya lo han hecho. Además, todo el equipo de INNKU sabe qué son las startups y cómo trabajar con ellas: diseñadores y programadores saben entender muy bien tus necesidades y la agilidad con la que debes avanzar.</p>
-    name: Paul Zavalza Solórzano
+  - name: Paul Zavalza Solórzano
     position: Co-Founder y CTO de DisculpeDoctor.com
     img: img/about/ddr.jpg
+    text: |
+      <p>INNKU nos ha dado el seguimiento necesario para tomar las mejores decisiones en DisculpeDoctor. La experiencia de sus fundadores (Adrian, Beto y Cris) es invaluable como emprendedor tecnológico y te da la confianza de tener un equipo que realmente puede lograr un cambio en México pues ellos ya lo han hecho. Además, todo el equipo de INNKU sabe qué son las startups y cómo trabajar con ellas: diseñadores y programadores saben entender muy bien tus necesidades y la agilidad con la que debes avanzar.</p>
