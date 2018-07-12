@@ -22,11 +22,11 @@
   btn-txt-1: Ir al sitio
   btn-url-1: http://www.lunchbreak.mx/
 
-- name: Briq
+- name: Briq.mx
   title: Inversión en bienes raíces al alcance de todos
   description: |
-    <p>Briq.mx es la primera plataforma de fondeo colectivo que te permite invertir en proyectos de bienes raíces en México. A través de un proceso de selección de proyectos, innovación financiera y tecnología, con Briq hacemos accesible la inversión en bienes raíces desde montos muy pequeños.</p>
-    <p>En su primer año de operación ayudó a desarrolladores a hacer realidad 5 proyectos, fondeando 11.5 millones de pesos y logrando así una de las campañas más grandes de crowdfunding en México.</p>
+    <p>Briq.mx es la primera plataforma de fondeo colectivo que te permite invertir en proyectos de bienes raíces en México. A través de un proceso de selección de proyectos, innovación financiera y tecnología, Briq.mx hace accesible la inversión en bienes raíces desde montos muy pequeños.</p>
+    <p>Como empresa pionera de la industria de fondeo colectivo, Briq.mx ha colaborado con las autoridades en la creación de la primer Ley Fintech.</p>
   logo: img/home/logo-briq.svg
   icon: img/home/icon-briq.svg
   id: briq
@@ -34,21 +34,21 @@
   btn-txt-1: Ir al sitio
   btn-url-1: https://www.briq.mx/
 
-- name: Disculpe Doctor
-  title: Acceso a doctores de alta calidad 24/7
-  description: |
-    <p>Disculpe Doctor te da acceso a un chat privado para recibir asesoría médica con doctores certificados y de alta calidad, en el momento que la necesites y desde cualquier lugar.</p>
-    <p>Queremos eliminar las dificultades y barreras para acceder a atención médica de alta calidad, al mismo tiempo que buscamos fomentar la prevención y detección temprana de padecimientos, reduciendo o eliminando los gastos excesivos que la población hace en servicios de salud.</p>
-  logo: img/home/logo-disculpe-doctor.svg
-  icon: img/home/icon-disculpe-doctor.svg
-  id: disculpe-doctor
-  class: disculpe-doctor
-  btn-txt-1: Ir al sitio
-  btn-url-1: http://www.disculpedoctor.com/
-  btn-txt-2: Descarga la app para iOS
-  btn-url-2: https://itunes.apple.com/mx/app/disculpe-doctor/id1027534072
-  btn-txt-3: Descarga la app para Android
-  btn-url-3: https://play.google.com/store/apps/details?id=com.innku.disculpedoctor
+# - name: Disculpe Doctor
+#   title: Acceso a doctores de alta calidad 24/7
+#   description: |
+#     <p>Disculpe Doctor te da acceso a un chat privado para recibir asesoría médica con doctores certificados y de alta calidad, en el momento que la necesites y desde cualquier lugar.</p>
+#     <p>Queremos eliminar las dificultades y barreras para acceder a atención médica de alta calidad, al mismo tiempo que buscamos fomentar la prevención y detección temprana de padecimientos, reduciendo o eliminando los gastos excesivos que la población hace en servicios de salud.</p>
+#   logo: img/home/logo-disculpe-doctor.svg
+#   icon: img/home/icon-disculpe-doctor.svg
+#   id: disculpe-doctor
+#   class: disculpe-doctor
+#   btn-txt-1: Ir al sitio
+#   btn-url-1: http://www.disculpedoctor.com/
+#   btn-txt-2: Descarga la app para iOS
+#   btn-url-2: https://itunes.apple.com/mx/app/disculpe-doctor/id1027534072
+#   btn-txt-3: Descarga la app para Android
+#   btn-url-3: https://play.google.com/store/apps/details?id=com.innku.disculpedoctor
 
 - name: Reservamos
   title: Las mejores opciones para tu viaje
