@@ -1,7 +1,7 @@
-- name: Adrián Cuadros
-  description: |
-    De Cochabamba, Bolivia. Apasionado al fútbol y promotor activo de técnicas de productividad. Desarrolla en RoR e imparte talleres. Encargado de Rutanet y líder de proyecto en varios desarrollos a la medida.
-  image: img/team/adrian.jpg
+  - name: Adrián Cuadros
+    description: |
+      De Cochabamba, Bolivia. Apasionado al fútbol y promotor activo de técnicas de productividad. Desarrolla en RoR e imparte talleres. Encargado de Rutanet y líder de proyecto en varios desarrollos a la medida.
+    image: img/team/adrian.jpg
 
   - name: Alberto Padilla
     description: |
