@@ -1,9 +1,9 @@
 # Site settings
-title: Innku
-email: info@innku.com
-description: We are experts in creating software products. We develop web solutions, accessible and ready to use in weeks.
+title: INNKU
+email: contacto@innku.com
+description: Nos asociamos con personas extraordinarias para crear y escalar negocios en línea.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://innku.github.io/innku-2018" # the base hostname & protocol for your site
+url: "http://www.innku.com" # the base hostname & protocol for your site
 twitter_username: innku
 github_username: innku
 
