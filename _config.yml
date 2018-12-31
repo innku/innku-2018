@@ -3,7 +3,7 @@ title: INNKU
 email: contacto@innku.com
 description: Nos asociamos con personas extraordinarias para crear y escalar negocios en línea.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://www.innku.com" # the base hostname & protocol for your site
+url: "https://www.innku.com" # the base hostname & protocol for your site
 twitter_username: innku
 github_username: innku
 
