@@ -1,7 +1,7 @@
 - name: Jetty
   title: Viaja cómodo y seguro a tu trabajo
   description: |
-    <p>Jetty busca resolver las preocupaciones de ir incomodo y de la inseguridad en el transporte público, la perdida de tiempo al volante, el costante aumento de las tarifas y la falta de personal capaz de conducir de manera profesional.</p>
+    <p>Jetty busca resolver las preocupaciones de incomodidad e inseguridad en el transporte público, la pérdida de tiempo al volante, el constante aumento de las tarifas y la falta de personal capaz de conducir de manera profesional.</p>
     <p>Con tan sólo indicar el origen y el destino, escoger una ruta, un horario, reservar el lugar y pagar, cualquier persona podrá disfrutar de un buen viaje de ida o regreso del trabajo.</p>
   logo: img/home/logo-jetty.svg
   icon: img/home/icon-jetty.svg
@@ -9,12 +9,17 @@
   class: jetty
   btn-txt-1: Ir al sitio
   btn-url-1: http://www.jetty.mx/
+  btn-txt-2: Descarga la app para iOS
+  btn-url-2: https://itunes.apple.com/us/app/jetty-soluciona-tu-transporte/id1276413293?l=es&ls=1&mt=8
+  btn-txt-3: Descarga la app para Android
+  btn-url-3: https://play.google.com/store/apps/details?id=mx.jetty.jetty
+
 
 - name: Lunch Break
   title: Come mejor y más saludable en tu trabajo
   description: |
-    <p>Con un modelo de suscripción mensual, Lunch Break te lleva tu comida a la oficina. Comida buena, sin complicaciones y a costos accesibles, desde una plataforma tecnológica eliges tu menú y Lunch Break se encarga del resto.</p>
-    <p>Cualquier persona puede suscribirse al servicio, también trabajamos directamente con empresas que buscan otorgar esta beneficiosa prestación a sus empleados. Actualmente hemos establecido convenios con empresas trasnacionales que buscan asegurar una alimentación adecuada para sus colaboradores.</p>
+    <p>Lunch Break te lleva tu comida a la oficina. Comida buena, sin complicaciones y a costos accesibles, desde una plataforma tecnológica eliges tu menú y Lunch Break se encarga del resto.</p>
+    <p>Cualquier persona puede suscribirse al servicio, también trabaja directamente con empresas que buscan otorgar esta beneficiosa prestación a sus empleados.</p>
   logo: img/home/logo-lunch-break.svg
   icon: img/home/icon-lunch-break.svg
   id: lunchbreak
@@ -34,37 +39,21 @@
   btn-txt-1: Ir al sitio
   btn-url-1: https://www.briq.mx/
 
-# - name: Disculpe Doctor
-#   title: Acceso a doctores de alta calidad 24/7
-#   description: |
-#     <p>Disculpe Doctor te da acceso a un chat privado para recibir asesoría médica con doctores certificados y de alta calidad, en el momento que la necesites y desde cualquier lugar.</p>
-#     <p>Queremos eliminar las dificultades y barreras para acceder a atención médica de alta calidad, al mismo tiempo que buscamos fomentar la prevención y detección temprana de padecimientos, reduciendo o eliminando los gastos excesivos que la población hace en servicios de salud.</p>
-#   logo: img/home/logo-disculpe-doctor.svg
-#   icon: img/home/icon-disculpe-doctor.svg
-#   id: disculpe-doctor
-#   class: disculpe-doctor
-#   btn-txt-1: Ir al sitio
-#   btn-url-1: http://www.disculpedoctor.com/
-#   btn-txt-2: Descarga la app para iOS
-#   btn-url-2: https://itunes.apple.com/mx/app/disculpe-doctor/id1027534072
-#   btn-txt-3: Descarga la app para Android
-#   btn-url-3: https://play.google.com/store/apps/details?id=com.innku.disculpedoctor
-
 - name: Reservamos
   title: Las mejores opciones para tu viaje
   description: |
     <p>Reservamos es el primer comparador de medios de transporte de América Latina, donde en una sola búsqueda puedes encontrar resultados de autobús, avión, rides, además de precios, horarios, información de terminales, servicios, ratings y comentarios de otros viajeros.</p>
-    <p>Reservamos mueve a miles de viajeros por 90,000 rutas a 3,700 destinos.</p>
+    <p>Reservamos mueve a miles de viajeros por más de 90,000 rutas a más de 4,000 destinos.</p>
   logo: img/home/logo-reservamos.svg
   icon: img/home/icon-reservamos.svg
   id: reserbus
   class: reserbus
   btn-txt-1: Ir al sitio
   btn-url-1: http://reservamos.mx
-  # btn-txt-2: Descarga la app para iOS
-  # btn-url-2: https://itunes.apple.com/mx/app/reserbus/id884367907
-  # btn-txt-3: Descarga la app para Android
-  # btn-url-3: https://play.google.com/store/apps/details?id=com.reserbus.Reserbus
+  btn-txt-2: Descarga la app para iOS
+  btn-url-2: https://itunes.apple.com/gb/app/reservamos-autob%C3%BAs-y-avi%C3%B3n/id1220964740?mt=8
+  btn-txt-3: Descarga la app para Android
+  btn-url-3: https://play.google.com/store/apps/details?id=com.reservamos.viajes
 
 - name: Aventones
   title: Compartiendo auto entre miembros de tu organización
@@ -80,6 +69,18 @@
   btn-url-1: https://www.entrepreneur.com/article/268188
   btn-txt-2: Conoce BlaBlaCar
   btn-url-2: https://www.blablacar.mx/blog/sobre-nosotros
+
+- name: Cerouno
+  title: Descubre tu potencial de cambiar al mundo a través de la tecnología.
+  description: |
+    <p>CeroUno busca reemplazar a la educación tradicional como el mejor lugar para estudiar programación.</p>
+    <p>Se creó en 2018 en Monterrey mediante la alianza de CeroUno y Hacker School Monterrey. Cuenta con programas para aprender a programar, convertirse en profesional e incluso para quien ya se dedica a programar pero quiere evolucionar sus habilidades.</p>
+  logo: img/home/logo-cerouno.png
+  icon: img/home/icon-cerouno.png
+  id: cerouno
+  class: cerouno
+  btn-txt-1: Ir al sitio
+  btn-url-1: https://www.cerouno.io/
 
 - name: Rutanet
   title: El lugar donde las cargas encuentran transportistas confiables.
