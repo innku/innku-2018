@@ -27,10 +27,10 @@
   btn-txt-1: Ir al sitio
   btn-url-1: http://www.lunchbreak.mx/
 
-- name: Briq.mx
+- name: briq.mx
   title: Inversión en bienes raíces al alcance de todos
   description: |
-    <p>Briq.mx es la primera plataforma de fondeo colectivo que te permite invertir en proyectos de bienes raíces en México. A través de un proceso de selección de proyectos, innovación financiera y tecnología, Briq.mx hace accesible la inversión en bienes raíces desde montos muy pequeños.</p>
+    <p>briq.mx es la primera plataforma de fondeo colectivo que te permite invertir en proyectos de bienes raíces en México. A través de un proceso de selección de proyectos, innovación financiera y tecnología, Briq.mx hace accesible la inversión en bienes raíces desde montos muy pequeños.</p>
     <p>Como empresa pionera de la industria de fondeo colectivo, Briq.mx ha colaborado con las autoridades en la creación de la primer Ley Fintech.</p>
   logo: img/home/logo-briq.svg
   icon: img/home/icon-briq.svg
